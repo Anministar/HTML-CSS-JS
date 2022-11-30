@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+<!-- px : 절대크기 -->
+<!-- div>div*4{HELLO WORLD} -->
+<div style="font-size : 48px;">
+  <div style="font-size : 32px;">HELLO WORLD</div>
+  <div>HELLO WORLD</div> <!-- font-size가 정해지지 않은 태그는 부모 px의 영향을 받아서 48px이 됨.-->
+  <div style="font-size : 8px;">HELLO WORLD</div>
+  <div style="font-size : 16px;">HELLO WORLD</div>
+</div>
+<hr>
+
+<!-- em : 상대크기 부모의 글꼴사이즈의 배수 -->
+<!-- div>div[style="font-size : 1px"]*4{HELLO WORLD} -->
+<div style="font-size : 8px;"> 
+  <!-- 만약에 부모태그가 없으면 기본(16px)을 기준으로 1,2,3,4배가 적용이 되고 부모 태그가 있으면 부모태그를 기준으로 1,2,3,4배가 적용이 됨.-->
+  <div style="font-size : 1em">HELLO WORLD</div>
+  <div style="font-size : 2em">HELLO WORLD</div>
+  <div style="font-size : 3em">HELLO WORLD</div>
+  <div style="font-size : 4em">HELLO WORLD</div>
+</div>
+<hr>
+
+<!-- rem : 상대크기(기본 글자크기(16px을 기준))-->
+<div style="font-size : 8px;"> 
+  <div style="font-size : 1rem">HELLO WORLD</div>
+  <div style="font-size : 2rem">HELLO WORLD</div>
+  <div style="font-size : 3rem">HELLO WORLD</div>
+  <div style="font-size : 4rem">HELLO WORLD</div>
+</div>
+<hr>
+
+<!-- % : 상대크기 부모 사이즈의 % -->
+<div style="font-size : 16px;"> 
+  <div style="font-size : 100%">HELLO WORLD</div>
+  <div style="font-size : 150%">HELLO WORLD</div>
+  <div style="font-size : 200%">HELLO WORLD</div>
+  <div style="font-size : 250%">HELLO WORLD</div>
+</div>
+
+
+</body>
+</html>

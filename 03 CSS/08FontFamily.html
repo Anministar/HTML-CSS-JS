@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <!-- 네이버 외부 글꼴 나눔손글씨 마고체 -->
+  <link href="https://hangeul.pstatic.net/hangeul_static/css/NanumMaGoCe.css" rel="stylesheet">
+
+  <!-- 구글 폰트 -->
+  <link href="https://fonts.googleapis.com/css?family=Gothic+A1:100" rel="stylesheet">
+  
+  <title>Document</title>
+  
+  <style>
+    @font-face{
+              font-family : "restart";
+              src : url("font/NanumDdaDdeusHanJagByeor.ttf");
+              font-weight : 700;
+              font-style : normal;
+  }
+  
+  </style>
+
+</head>
+<body>
+ 
+  <!-- 
+    font-family : 글꼴1, "맑은 고딕",...... "글꼴계열"
+   -->
+   <!-- div[style="font-family : "]*4{HELLO WORLD} -->
+   <!-- 브라우져마다 모르는 글꼴이 있을 수 있기 때문에 첫번째 적용을 했을 때 모르는것 같으면 두번째의 글꼴을 적용함. -->
+   <div style="font-family : '돋움', '궁서체', sans-serif">HELLO WORLD</div>
+   <div style="font-family : '궁서체',">HELLO WORLD</div>
+   <div style="font-family : '굴림체'">HELLO WORLD</div>
+   <div style="font-family : '맑은 고딕'">HELLO WORLD</div>
+   <div style="font-family : sans-serif">HELLO WORLD</div>
+   <hr>
+
+   <!-- 
+    외부 폰트 사용하기
+    -->
+    <div style="font-family : 'NanumMaGoCe'; ">HELLO WORLD</div>
+    <div style="font-family : 'Gothic A1'; ">HELLO WORLD</div>
+
+<!-- 
+  외부 폰트 사용하기(download)
+ -->
+<div style="font-family : restart;">HELLO WORLD </div>
+
+
+</body>
+</html>

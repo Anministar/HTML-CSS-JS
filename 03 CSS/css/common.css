@@ -1,0 +1,8 @@
+/* 진열방식 */
+/* 많으면 많을 수록 성능이 좋진 않음 */
+@import "a.css";
+
+div{
+  color : cadetblue;
+  background-color : blueviolet;
+}

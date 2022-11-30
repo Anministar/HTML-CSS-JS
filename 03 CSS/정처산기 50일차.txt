@@ -11,3 +11,19 @@ $ git config --global user.email you@example.com
 
 
 git remote set-url Origin https://Anministar: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@github.com/Anministar/HTML-CSS-JS
+
+
+			# 03 CSS #
+			# 03Color.html # 
+html color code치면 코드 나옴.
+
+
+
+			# 08FontFamily.html #
+네이버 글꼴 모음에서 웹 폰트 URL 복사 - vscode에 붙여넣기
+구글 폰트 사이트에서도 사용할 수 있음.
+
+
+
+
+

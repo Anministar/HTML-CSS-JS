@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- link로 외부파일 연결 -->
+  <link rel="stylesheet" href="css/common.css"> ><!-- link가 sytle보다 유지보수가 더 용이-->
+
+
+  <!-- style 태그 -->
+  <style>
+    div{
+      color:blue !important;
+      background:orange;
+    }
+  </style>
+
+  <!-- 
+    link와 style은 동일한 레벨이지만 마지막에 있는걸로 스타일이 적용됨 
+    ==> 여기서는 주황색이 적용 
+  -->
+
+</head>
+
+<body>
+  <!-- style 속성 -->
+  
+  <!-- !important  : 우선순위를 가장 높임-->
+
+  <div>HELLOWORLD</div>
+  <div>HELLOWORLD</div>
+  <div>HELLOWORLD</div>
+  <div style="color: red;">HELLOWORLD</div> <!-- 우선순위가 높음 -->
+
+
+  <h1>제목!</h1>
+
+<!-- @import url 사용 -->
+
+</body>
+</html>
