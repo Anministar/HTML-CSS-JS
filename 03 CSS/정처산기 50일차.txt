@@ -8,3 +8,6 @@ reset.css cdn 쳐서 첫번째 사이트 들어가서 제일 위에있는거 cop
 소스 - 레포지토리 초기화 - 뭐 email이 없다 이런식이면 -
 $ git config --global user.name "Your Name"
 $ git config --global user.email you@example.com
+
+
+git remote set-url Origin https://Anministar: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@github.com/Anministar/HTML-CSS-JS
