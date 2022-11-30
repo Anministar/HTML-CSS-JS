@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- BS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!-- BS Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+  <!-- 기본 버튼 onclick --> <!-- onclick 부터는 자바스크립트(기능처리)가 사용되는거임.-->
+  <button onclick="alert('버튼1클릭')">버튼1</button>
+  <input type="button" value="버튼2"  onclick="alert('버튼2클릭')" /> <!-- 마지막에 /를 넣어줌으로써 끝맺음을 나타냄.-->
+  <input type="submit" value="버튼3" onclick="alert('버튼3클릭')" />
+
+  <hr>
+
+
+  <!-- 기본버튼 + BS -->
+  <button onclick="alert('버튼1클릭')" class="btn btn-primary">버튼1</button>
+  <input type="button" value="버튼2"  onclick="alert('버튼2클릭')" class="btn btn-success" /> <!-- 마지막에 /를 넣어줌으로써 끝맺음을 나타냄.-->
+  <input type="submit" value="버튼3" onclick="alert('버튼3클릭')" class="btn btn-warning"/>
+
+  <!-- 기본버튼 + a태그 -->
+  <button><a href="https://www.naver.com" target="_blank">버튼</a></button>
+
+  <a href="https://www.naver.com"></a>
+
+  <!-- 이미지 버튼 -->
+  <button onclick="alert('곰돌이1')">
+    <img src="./Gom.png" alt="곰돌이사진">
+    <!-- alt는 source를 넣으면 무조건 들어가야함.-->
+  </button>
+
+
+  <!-- 이미지 버튼 + a태그 -->
+
+  <a href="https://www.naver.com">
+    <img src="https://item.kakaocdn.net/do/9f6391218e3a68eb052a0e6bdd46e649616b58f7bf017e58d417ccb3283deeb3" alt="곰돌이사진">
+    <!-- 이미지 주소 복사해서 만든것-->
+  </a>
+
+  <input type="image" src="./Gom.png"> 
+
+  <hr>
+
+  <!-- icon 가져오기 -->
+  
+  <!-- bs -->
+  <button onclick="alert('클릭됨')";>
+    <i class="bi bi-upc-scan" style="font-size:2rem;"></i>
+  </button>
+  
+  <a href="#">
+    <i class="bi bi-upc-scan" style="font-size:2rem;"></i>
+  </a>
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/9c8afd2910.js" crossorigin="anonymous"></script>
+  <i class="fa-solid fa-fish" style="font-size:3rem;"></i>
+
+  <svg style="width:20px;height:20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M180.5 141.5C219.7 108.5 272.6 80 336 80s116.3 28.5 155.5 61.5c39.1 33 66.9 72.4 81 99.8c4.7 9.2 4.7 20.1 0 29.3c-14.1 27.4-41.9 66.8-81 99.8C452.3 403.5 399.4 432 336 432s-116.3-28.5-155.5-61.5c-16.2-13.7-30.5-28.5-42.7-43.1L48.1 379.6c-12.5 7.3-28.4 5.3-38.7-4.9S-3 348.7 4.2 336.1L50 256 4.2 175.9c-7.2-12.6-5-28.4 5.3-38.6s26.1-12.2 38.7-4.9l89.7 52.3c12.2-14.6 26.5-29.4 42.7-43.1zM448 256c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32z"/></svg>
+  
+  <hr>
+  <i class="fa-solid fa-rocket fa-lg" ></i>
+  <i class="fa-solid fa-rocket fa-2x" ></i>
+  <i class="fa-solid fa-rocket fa-3x" ></i>
+  <i class="fa-solid fa-rocket" style="font-size:5em;"></i>
+  <i class="fa-solid fa-rocket"></i>
+
+</body>
+</html>

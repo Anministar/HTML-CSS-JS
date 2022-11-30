@@ -1,0 +1,5 @@
+			# codepen #
+codepen 사이트에서 스타일을 보거나 코드가 맞았나 안맞았나도 확인할 수 있음.
+
+			# Reset.css cdn #
+reset.css cdn 쳐서 첫번째 사이트 들어가서 제일 위에있는거 copy html해서 head부분에 붙여넣으면 기본값으로 바뀜. 그러니깐 보통 ViewPort와의 거리가 생기는데 그런것들을 초기값으로, 초기화 시켜주는 그런 단계임.

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<>
+  <!-- table>tr*4>td*4{$} -->
+  <table border="1" width="500px" height = "500px">
+    <tr>
+      <th colspan="2">1</th> <!-- th는 조금더 찐해지면서 가운데 정렬이 됨.-->
+      <!-- 셀 병합-->
+      <!-- <th>2</th> -->
+      <th>3</th>
+      <th>4</th>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td colspan="3">6</td>
+      <!-- <td>7</td>
+      <td>8</td> -->
+    </tr>
+    <tr>
+      <td colspan ="2">9</td>
+      <!-- <td>10</td> -->
+      <td>11</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>14</td>
+      <td colspan = "2">15</td>
+      <!-- <td>16</td> -->
+    </tr>
+  </table>
+  <hr>
+<table>
+  <hr>
+  <!-- table>tr*4>td*4{$} -->
+  <table border="1" width = "500px" height="500px">
+    <tr>
+      <td rowspan="2">1</td>
+      <td>2</td>
+      <td>3</td>
+      <td rowspan="4">4</td>
+    </tr>
+    <tr>
+      <!-- <td>5</td> -->
+      <td rowspan="3">6</td>
+      <td>7</td>
+      <!-- <td >8</td> -->
+    </tr>
+    <tr>
+      <td>9</td>
+      <!-- <td>10</td> -->
+      <td>11</td>
+      <!-- <td>12</td> -->
+    </tr>
+    <tr>
+      <td>13</td>
+      <!-- <td>14</td> -->
+      <td>15</td>
+      <!-- <td>16</td> -->
+    </tr>
+  </table>
+</table>
+
+
+<!-- 아직 문제 덜 풀었음 -->
+<table border="1" width="500px" height="500px">
+  <tr>
+    <th colspan="6">전자정부 프레임워크 자바 개발자반 시간표</th>
+  </tr>
+  <tr>
+    <th colspan="2">오라클</th>
+    <th colspan="2">웹표준 UI</th>
+    <th colspan="2">애플리케이션</th>
+    
+  </tr>
+  <tr>
+    <td rowspan="4">1교시~4교시</td>
+    
+    <td rowspan="4"><특강> 강사 - 홍길동</td>
+    
+    <td colspan="2">1교시</td>
+    <td colspan="2">1교시</td>
+  
+    
+  </tr>
+  <tr>
+
+    <td colspan="2">2교시</td>
+    <td colspan="2">2교시</td>
+  </tr>
+  <tr>
+    <td colspan="2">3교시</td>
+    <td colspan="2">3교시</td>
+  </tr>
+  <tr>
+    <td colspan="2">4교시</td>
+    <td colspan="2">4교시</td>
+    
+  </tr>
+  <tr>
+    <td colspan="2">5교시</td>
+    <td rowspan="4">5교시 ~ 8교시</td>
+    <td roswspan="4"><특강> 강사 - 홍길순</td>
+    <td colspan="2">5교시</td>
+  </tr>
+  <tr>
+    <td>6교시</td>
+
+    <td>6교시</td>
+  </tr>
+  <tr>
+    <td>7교시</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>8교시</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</body>
+</html>

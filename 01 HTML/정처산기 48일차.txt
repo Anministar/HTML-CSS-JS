@@ -1,0 +1,101 @@
+			### 화면 구현 ###
+			# VScode 설치 #
+Vscode download 웹 브라우져에 검색 - 홈페이지 들어가서 다운로드 - Next 반복 설치 및 실행 
+
+
+CSS / SSS
+
+Client Side Script / Server Side Script
+
+
+@@
+http://www.naver.com:80 ==> 기본적으로 80이라는 포트 번호를 사용, 그래서 생략해도 80이 붙은거랑 다름없음.
+
+1. 정적페이지 : 요청할때마다 동일한 페이지 코드를 주는 경우 -> html코드를 사용
+2. 동적페이지 : 요청할 때마다 그때그때 다른 코드를 주는 경우 -> JS를 사용
+Ex) naver를 들어갈 때마다 배너가 조금씩 바뀜.
+
+
+@@
+Html, Css는 웹 페이지의 스타일을 담당함
+JavaScript 는 웹 페이지의 기능들을 사용, 구현할 때 사용됨.
+
+Broswer에 코드가 그대로 전달되고 난 다음에 해석이 됨. 그래서 우리가 홈페이지 가서 F12로 코드들을 확인할 수 있음.
+
+PHP
+JSP -> Servlet 기반으로 움직임 -> Spring
+
+@ Vscode로 와서 @
+! enter 하면 기본적인 html 나옴.
+HELLO WORLD 해서 F5해서 실행하면 파일을 실행한거임. 서버에서 실행한게 아니라, 그래서 서버를 이용할 수 있도록 플러그인을 하나 다운해서 사용할 예정.
+그냥 HTML파일을 웹 브라우져에다가 끌어서 실행(읽는것)하는것 뿐임.
+
+
+@ 확장 @
+1. Korea 치면 한글 설치 가능
+2. beautify 치고 설치하고 기능 기여도에 명령(Commands)에 HookyQR.beautify
+파일에서 기본설정 - 단축키 - beautify 검색해서 Beautify Selection - Ctrl + Alt + L 등록 
+3. auto rename : 앞 태그 바꾸면 뒷 태그도 같이 바뀜.
+4. Live Server
+설치 후 우클릭 Open with Live Server ( Alt + L + O )
+서버를 이용해서 웹으로 코드를 해석해서 띄운거기 때문에 닫지 않고도 바꾸면 바뀌어짐. 바꾸고 저장해야함.
+
+
+오른쪽 하단에 공백 : 4 부분 클릭해서 공백을 조금 바꿀 수도 있음.
+기본 공백 값을 바꾸고 싶다면 파일 - 기본 설정 - 설정 에서 tab size 검색해서 바꾸어 주면 됨.
+
+Response Headers의 Content-Type : text / plain 이 부분을 알아야함. Headers(F12 들어가서 볼 수 있음)에 있는.
+
+
+<!DOCTYPE html> :  document type이 html이다 라는 뜻이고 브라우져에 전달할 코드다 이런거임
+
+
+
+@@
+1. ctrl + /  : 주석 처리
+2. <!-- --> :  이게 주석인듯.
+3. <html> </html> : html의 시작과 끝을 알림.
+4. <html lang="ko"> : 스크린 리더, 비장애인, 장애인을 모두를 위해 코드를 읽어주는 그런 기능인데 en은 영어로 읽어주고 ko는 한국어로 읽어주기 때문에 ko가 맞음.
+5. content = "IE=edge" : chrome이나 edge나 그런 각 다른 웹 브라우져에게 동일한 코드를 주면 다르게 웹 페이지를 띄울 수도 있다. IE(Internet Explorer), 다른 브라우져에도 동일하게 적용이 될 수 있게 하려면 이걸 적어줘야함(IE가 edge를 포함한다)
+6. viewprot 영역은 크롬으로 따지면 북마크 밑부터 화면의 끝까지임.
+7. width = device-width(장치의 너비에 맞게 보여주겠다)
+8. initial - scale = 1.0 : 이건 기본 배율임. 2.0 하면 조금 더 커지는걸 볼 수 있음.
+9. <title> Document </tile> : tab 제목 (탭 제목)을 뜻함.
+==> <head>에 들어가는 부분은 제어 부분이(어떻게 어떻게 해라 하는), <body>에는 랜더링되는 정보들이 들어감.
+
+
+@@
+인라인 방식 : style = "" --> 이 방식으로는 잘 안함. 유지보수면에서 좋지 않음. 나중에는 CSS로 할꺼임. 지금은 테스트용임.
+
+CSS코드를 넣어서 바꿀 수 있음.
+style = "list-style : none" ==> 도트형식의 리스트 스타일을 없애겠다.
+padding : 0px ==> 왼쪽 빈 여백을 없애겠다.
+
+
+@ 추천 웹 사이트 @
+TCP School.com
+
+
+			# 06Table #
+tr : table row(행)
+td : ???(셀)
+board = "1" : 이런것도 나중에는 CSS로 다 확인 가능, 지금은 영역 확인을 위해서 하는것들임.
+<caption></caption> : 테이블 제목
+
+EMMET이 모든걸 지원하진 않음
+
+그 테이블 보면 바깥 라인이 테이블라인(선)이고 안쪽에 있는데 td라인(선)임.
+
+			# 08Atag.html #
+naver나 구글에서 아무 이미지, 이미지 주소복사를 통해 a 태그 안에 넣어주게 되면 프레임안에서 이미지를 띄울 수 있음.
+
+
+			@ HTML 약어 정리 사이트 참고 @
+https://yeoninim.tistory.com/44
+
+			# 10Video #
+유튜브 아무영상 들어가서 공유 - 퍼가기 - 복사 해서 붙여넣고 실행
+
+웹브라우져에 무료 동영상 사이트 들어가서 아무 영상 다운로드
+pixabay에 들어와서 videos - Grass 클릭하고 다운로드
+

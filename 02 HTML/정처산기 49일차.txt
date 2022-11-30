@@ -1,0 +1,78 @@
+			# 02 HTML - 01Form.html #
+
+@ Get 방식 - URL에 파라미터값들을 전달하는 형태를 get 방식이라고 함.
+-> 이러한 방식들은 굳이 노출이 되어도 문제가 없는 부분들(검색)에서 사용함.
+
+@ Post 방식 - HTTP Request(세 마디로 구성, Start line,header, body)
+-> 개인정보나 노출되지 말아야할 정보들을 전달할 때 사용하는 방식.
+
+
+1. Start line
+: HTTP Methods를 전달함 (get, post, put ,delete, options)
+
+==> POST, test.jsp, HTTP/1.1 등이 담겨있다 ( Post방식을 쓰고 test.jsp 페이지에 전달하겠다, HTTP를 1.1 버젼을 사용하겠다)
+
+2. Headers
+request에 대한 추가정보를 담고있는 부분(request 메세지 vody의 총 길이 등등)
+
+==> 브라우저 정보(전달하려는 데이터 정보가 담겨있다.
+
+3. body
+==> FORM에 입력되었던 데이터
+
+
+			# 02 HTML - 02Form.html #
+@단축키
+선택행 이동 : alt + 방향키 아래 위
+선택행 아래 복사 : alt + shift + 방향키 아래 위
+
+@
+placehoder : 사용법을 알려주는것, 어떠한 텍스트를 입력하기 전까지 띄워져있는거.
+
+			# 02 HTML - 03FormBS.html #
+BS : BootStrap
+
+ 			# 02 HTML - 06FileUpload.html #
+이거 중요함.
+
+부트스트랩 5 - 컴포넌트 - 버튼 에서 코드 볼 수 있음.
+
+			# 02 HTML - 08Button.html #
+부트스트랩 5 - 아이콘
+a태그는 특정 URL로 이동도 가능하고 특정 위치로 이동할 수도 있음(a href="#"은 제일 위로)
+
+@ FontAwesome
+FontAwesome - 홈 kit - my kit - copy kit
+
+@ 웹 브라우져에 fontawesome cdn
+			# 02 HTML -09Pattern.html #
+정규표현식 전방 탐색, 후방 탐색
+정규표현식 패스워드 쳐서 사용 하면 됨.
+autofocus : 그입력안하면 입력하라면서 그쪽으로 focus되는기능이 이거임
+근데 required는 기본적으로 autofocus를 가지고 있음.
+
+			# 02 HTML - 11입력조건.html #
+required : 공백일 때 못넘어가게 만들어주는 애
+invalid : 유효하지 않다, 유효성 체크
+onchage="this.setCustomValidity('')" : 원래의 상태로 돌려줌
+disabled : 해당 태그에 넣어줌으로써 비활성화시키는것
+
+			# 정리 #
+input
+type=text(기본)
+type=password
+type=email
+type=file
+type=checkbox
+type=radio
+type=image
+...
+
+@ 알면 좋음
+type=search 검색어 입력하면 x버튼 뜨는거
+type=date 달력정보
+type=time 오후,오전, 시간, 분 등의 입력할 수 있음
+type=number 수치의 증감을 할 수 있음 위쪽화살표 아래쪽화살표 뜨는거.
+type=range 그 막대있고 동그란 버튼으로 범위설정?
+type=color RGB값설정할 수 있음.
+type=datalist 다른 태그와 연결해서 사용하니깐, 그 컴퓨 이런식으로 치면 컴퓨터공학 이런식으로 예시가 뜨는거.

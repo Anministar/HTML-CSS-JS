@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    video{
+      width : 100%;
+      height : 100%;
+      /* video, image 가로세로비를 브라우져에 맞게 */
+      object-fit : cover;
+      /* 태그의 위치 지정 : absolute는 viewport를 기준으로 */
+      position : absolute;
+      top : 0px;
+      left  : 0px;
+      /* 표시 높이 */
+      z-index: -1; 
+      /* 투명도 비율 */
+      opacity : 0.8;
+    }
+  ul{
+    /* 배치형태(가로배치) */
+    display : flex;
+    /* 메뉴마다의 간격지정 */
+    justify-content : space-evenly;
+    /* 글자크기 */
+    font-size : 1.5rem;
+    /* ul 블릿(점표시) 없애기 */
+    list-style : none;
+    /* 블릿(점표시)가 가지는 부분(Padding) 삭제*/
+    padding : 0px;
+    color : blue;
+
+  }
+  </style>
+  <!-- object-fit : cover : 요소의 가로나 세로의 길이가 브라우져의 크기와 상관없이 비율에 맞게 전달됨.(CSS 기능) -->
+<!-- x,y축은 가로, 세로, z축은 앞뒤로 z-index를 -1로 하면 가장 뒤로 감-->
+<!-- justify-content는 내용의 위치선정하는건데 space-between은 사이 공백이 좀 많고 evenly이런것도 있음 -->
+
+</head>
+<body>
+
+  <!-- ul>li*4{메뉴$} -->
+  <ul>
+    <li>메뉴1</li>
+    <li>메뉴2</li>
+    <li>메뉴3</li>
+    <li>메뉴4</li>
+  </ul>
+
+  <!-- video#vdo -->
+  <video src="10Video.mp4" id="vdo" autoplay muted loop></video>
+
+</body>
+</html>

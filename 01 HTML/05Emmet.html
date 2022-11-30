@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 
+    Emmet : 에밋
+    코드 자동완성 플러그인(기본 설치됨 )
+   -->
+   <!-- div*3 -->
+   <div></div>
+   <div></div>
+   <div></div>
+   <div></div>
+   <div></div>
+   <div></div>
+
+   <!-- div>p-->  <!-- > 오른쪽 꺽쇠가 자식 태그를 만드는거임.-->
+  <div>
+    <p></p>
+  </div>
+
+  <!-- div>p*3 -->
+  <div>
+    <p></p>
+    <p></p>
+    <p></p>
+  </div>
+
+  <!-- div + h1 + h2 -->
+  <div></div>
+  <h1></h1>
+  <h2></h2>
+
+  <!-- p+div>span*3 -->
+  <p></p>
+  <div><span></span><span></span><span></span></div>
+
+  <!-- div>ul>li -->
+  <div>
+    <ul>
+      <li></li>
+    </ul>
+  </div>
+
+<!-- div>ul>li*5 -->
+<div>
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+
+<!-- div#, div. --> 
+<!-- div# enter ==> id를 입력할 수 있는 <div id=""></div>가 나옴.-->
+<!-- div. enter ==> class를 입력할 수 있는 <div class=""></div>가 나옴. -->
+<div id = "t1"></div>
+<div id=""></div>
+
+<div class="tmp1"></div>
+<div class="tmp2"></div>
+
+<!-- div#name, div.name -->
+<div id="name1"></div>
+<span id="name2"></span>
+<div class="name3"></div>
+<span class="name3"></span>
+
+<!-- $*n : 숫자 1씩 자동 증가 div#tmp$*3 -->
+<div id="tmp1"></div>
+<div id="tmp2"></div>
+<div id="tmp3"></div>
+<div id="tmp4"></div>
+<div id="tmp5"></div>
+
+<!-- p#p$*3 -->
+<p id="p1"></p>
+<p id="p2"></p>
+<p id="p3"></p>
+
+<!-- 텍스트 삽입 p{텍스트 입력} -->
+<div id="div1">Contents</div>
+<div id="div2">Contents</div>
+<div id="div3">Contents</div>
+<div id="div4">Contents</div>
+<div id="div5">Contents</div>
+
+<!-- p태그의 id를 ptag1~5까지 pcontent로 입력을 넣어보세요~ -->
+<!-- p#ptag$*5{pcontent} -->
+<p id="ptag1">pcontent</p>
+<p id="ptag2">pcontent</p>
+<p id="ptag3">pcontent</p>
+<p id="ptag4">pcontent</p>
+<p id="ptag5">pcontent</p>
+
+
+<!-- p#ptg$*5{pcontent$} -->
+<p id="ptg1">pcontent1</p>
+<p id="ptg2">pcontent2</p>
+<p id="ptg3">pcontent3</p>
+<p id="ptg4">pcontent4</p>
+<p id="ptg5">pcontent5</p>
+
+
+<!-- ul태그안의 li태그를 4개를 만들고 li1~li4까지 id를 부여한 다음 list라는 내용을 넣어보세요 -->
+<!-- ul>li#li$*4{list} -->
+<ul>
+  <li id="li1">list</li>
+  <li id="li2">list</li>
+  <li id="li3">list</li>
+  <li id="li4">list</li>
+</ul>
+
+<!-- #abc, #tag, .aabb, #a$*4 --> <!-- 기본적으로 <div> 태그임.-->
+<div id="abc"></div>
+
+<div id="tag"></div>
+
+<div class="aabb"></div>
+
+<div id="a1"></div>
+<div id="a2"></div>
+<div id="a3"></div>
+<div id="a4"></div>
+
+<hr>
+
+<!-- 순서가 있는 리스트 만드는거 에밋을 이용해서 해보기 -->
+<h1>순서가 있는 리스트</h1>
+
+<!-- ol>li$*5{메뉴$} -->
+<ol>
+  <li1>메뉴1</li1>
+  <li2>메뉴2</li2>
+  <li3>메뉴3</li3>
+  <li4>메뉴4</li4>
+  <li5>메뉴5</li5>
+</ol>
+
+
+<!-- ol>li*5{메뉴$}>ul>li*3{서브메뉴$} -->
+<ol>
+  <li>메뉴1
+    <ul>
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+  <li>메뉴2
+    <ul>
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+  <li>메뉴3
+    <ul>
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+  <li>메뉴4
+    <ul>
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+  <li>메뉴5
+    <ul>
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+</ol>
+
+<!-- ol>li*5>a{메뉴}  --> <!-- a 태그 -->
+<ol>
+  <li><a href="">메뉴</a></li>
+  <li><a href="">메뉴</a></li>
+  <li><a href="">메뉴</a></li>
+  <li><a href="">메뉴</a></li>
+  <li><a href="">메뉴</a></li>
+</ol>
+
+<!-- ol>li*5>a{메뉴$}+ul>li*3{서브메뉴$} -->
+<ol>
+  <li>
+    <a href="">메뉴1</a>
+    <ul>
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+  <li>
+    <a href="">메뉴2</a>
+    <ul>
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+  <li>
+    <a href="">메뉴3</a>
+    <ul>
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+  <li>
+    <a href="">메뉴4</a>
+    <ul>
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+  <li>
+    <a href="">메뉴5</a>
+    <ul>
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+</ol>
+
+<!-- ol>li*5.menu1>a{메뉴$}+ul.menu2>li*3{서브메뉴$} -->
+<ol>
+  <li class="menu1">
+    <a href="">메뉴1</a>
+    <ul class="menu2">
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+  <li class="menu1">
+    <a href="">메뉴2</a>
+    <ul class="menu2">
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+  <li class="menu1">
+    <a href="">메뉴3</a>
+    <ul class="menu2">
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+  <li class="menu1">
+    <a href="">메뉴4</a>
+    <ul class="menu2">
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+  <li class="menu1">
+    <a href="">메뉴5</a>
+    <ul class="menu2">
+      <li>서브메뉴1</li>
+      <li>서브메뉴2</li>
+      <li>서브메뉴3</li>
+    </ul>
+  </li>
+</ol>
+
+
+</body>
+</html>

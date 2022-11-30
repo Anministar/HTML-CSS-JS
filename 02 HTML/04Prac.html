@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="container-md p-3" style="width:500px; margin:100px auto;border:1px solid gray; border-radius: 10px;">
+    
+    <div style="text-align:center;">
+      <h1>회원가입</h1>
+   </div>
+
+    <form action="join.jsp" method="get">
+      <div>
+        <label for="name">이름</label>
+        <input type="text" name="name" id="name">
+      </div>
+
+      <div>
+        <label for="userid">아이디</label>
+        <input type="text" name="userid" id="userid">
+        <button>중복확인</button>
+      </div>
+
+      <div>
+        <label for="pwd">비밀번호</label>
+        <input type="password" name="pwd" id="pwd">
+      </div>
+
+      <div>
+        <label for="pwdA">비밀번호 확인</label>
+        <input type="password" name="pwdA" id="pwdA">
+      </div>
+
+      <div>
+        <label for="">생일/성별</label>
+        <select name="year">
+          <option value="선택">선택</option>
+          <option value="1998">1998</option>
+          <option value="1999">1999</option>
+          <option value="2000">2000</option>
+        </select>
+
+        년
+
+        <select name="month">
+          <option value="선택">선택</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+
+        월
+
+        <select name="day">
+          <option value="선택">선택</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+
+        일
+
+        <input type="radio" name="gender" value="M">남자
+        <input type="radio" name="gender" value="W">여자
+
+      </div>
+
+
+      <div>
+        <label for="">우편번호</label>
+        <input type="text" name="zip">
+        -
+        <input type="text" name="zip1">
+        <button>우편번호검색</button>
+      </div>
+
+      <div>
+        <label for="addr">집주소</label>
+        <input type="text" name="addr" id="addr">
+      </div>
+
+      <div>
+        <label for="plusaddr">상세주소</label>
+        <input type="text" name="plusaddr" id="plusaddr">
+      </div>
+
+      <div>
+        <label for="">연락처</label>
+        <select name="tel1">
+          <option value="선택">선택</option>
+          <option value="054">054</option>
+          <option value="053">053</option>
+          <option value="02">02</option>
+        </select>
+        -
+        <input type="text" name="tel2">
+        -
+        <input type="text" name="tel3">
+      </div>
+
+      <div>
+        <label for="email">이메일</label>
+        <input type="text" name="email" id="email">
+        @
+        <select name="emailcom">
+          <option value="선택">선택</option>
+          <option value="naver.com">naver.com</option>
+          <option value="gmail.com">gmail.com</option>
+          <option value="daum.net">daum.net</option>
+
+        </select>
+        <button>중복확인</button>
+      </div>
+
+      <div>
+        <label for="">회사전화 </label>
+        <select name="comtel">
+          <option value="선택">선택</option>
+        </select>
+        -
+        <input type="text" name="comtel1">
+        -
+        <input type="text" name="comtel2">
+
+      </div>
+
+      <div>
+        <label for="">회사주소</label>
+        <input type="text" name="comzip">
+        -
+        <input type="text" name="comzip1">
+        <button>우편번호검색</button>
+      </div>
+
+      <div>
+        <input type="text" name="comaddr">
+      </div>
+
+      <div>
+        <label for="">휴대폰</label>
+        <select name="phone">
+          <option value="선택">선택</option>
+          <option value="010">010</option>
+          <option value="011">011</option>
+        </select>
+        -
+        <input type="text" name="phone1">
+        -
+        <input type="text" name="phone2">
+      </div>
+
+      <div>
+        <label for="newsmail">뉴스메일</label>
+        <input type="radio" name="newsmail">동의
+        <input type="radio" name="newsmail">비동의
+
+      </div>
+
+
+      <div>
+        <label for="newsmail">SNS안내(이벤트)</label>
+        <input type="radio" name="newsmail">동의
+        <input type="radio" name="newsmail">비동의
+
+      </div>
+
+
+    </form>
+  </div>
+</body>
+
+</html>
