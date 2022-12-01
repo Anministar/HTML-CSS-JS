@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div{
+      display : flex;
+      align-items : center;
+      /* 가지고 있는 너비에서 중간을 맞춰주는 align-items */
+    }
+    input[type='checkbox']{
+      display : none;
+    }
+    /* 라벨을 체크박스처럼 쓸꺼임. */
+    input[type='checkbox']+label{
+      display : inline-block;
+      width : 35px;
+      height : 35px;
+      border : 2px solid darkgray; 
+      background-image: url(image/ckbefore.svg)  ;
+      background-repeat: no-repeat;
+      background-size : 100%;
+    }
+    input[type='checkbox']:checked+label{
+      background-image:url("image/ckafter.svg");
+    }
+
+    /* 이게 결국은 checkbox를 보이지 않게 하고  label에 checkbox의 id를 가리키게끔해서 
+    label 을 눌렀을 때 이미지가 바뀌게끔하여 checkbox의 역할을 하게 하는것임.*/
+
+    /* #### 그리고 radio type을 이용해서도 만들어보기 #### */
+  </style>
+</head>
+<body>
+  <div>
+    <input type="checkbox" id="chk">
+    <label for="chk"></label>&nbsp;<span>비행예약여부</span>
+  </div>
+  
+</body>
+</html>

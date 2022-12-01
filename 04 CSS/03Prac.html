@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    ol{
+      padding-left : 20px;
+    }
+    .c1>li {
+      font-weight: 700px;
+      font-family: '바탕체';
+      background-color : aquamarine;
+      color : royalblue;
+    }
+    .c2 li{
+      background-color; yeelowgreen;
+      color : blueviolet;
+    }
+
+    .c1>.c2>li : first-child{
+      border : 1px solid re;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ######### 사진으로 문제 찍어뒀으니깐 풀어보기  ########--> 
+
+
+  <!-- ul[class="menu1"]>li*4>a+ul[class="submenu"]>li*4{item$} -->
+  <!-- submenu 안의 c1클래스의 글자색 red -->
+  <!-- submenu 안의 c1클래스의 글자크기 2rem -->
+
+  ol[type="A" class="c1"]>li*3+ol[class="c2"]>li*3
+
+  <ul style="list-style : none;" class="menu1">
+    <li>
+      <a href="">MENU1</a>
+      <ul class="submenu">
+        <li>item1</li>
+        <li>item2</li>
+        <li id="li1">item3</li>
+        <li class="c1">item4</li>
+      </ul>
+    </li>
+    <li>
+      <a href="">MENU2</a>
+      <ul class="submenu">
+        <li class="c1">item1</li>
+        <li id="li2">item2</li>
+        <li>item3</li>
+        <li>item4</li>
+      </ul>
+    </li>
+    <li>
+      <a href="">MENU3</a>
+      <ul class="submenu">
+        <li>item1</li>
+        <li class="c1">item2</li>
+        <li>item3</li>
+        <li id="li3">item4</li>
+      </ul>
+    </li>
+    <li>
+      <a href="">MENU4</a>
+      <ul class="submenu">
+        <li>item1</li>
+        <li class="c1">item2</li>
+        <li class="c1">item3</li>
+        <li>item4</li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>
