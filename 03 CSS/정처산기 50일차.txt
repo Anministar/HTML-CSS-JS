@@ -12,7 +12,7 @@ $ git config --global user.email you@example.com
 
 git remote set-url Origin https://Anministar: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@github.com/Anministar/HTML-CSS-JS
 
-git remote set-url orgin https://Anministar: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@github.com/Anministar/HTML-CSS-JS
+git remote set-url origin https://Anministar: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@github.com/Anministar/HTML-CSS-JS
 
 			# 03 CSS #
 			# 03Color.html # 
