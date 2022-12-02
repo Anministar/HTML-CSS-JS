@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    ul {
+      list-style: none;
+      padding: 0px;
+      border: 1px solid gray;
+      display: flex;
+      justify-content: space-evenly;
+      text-align: center;
+    }
+
+    .menu {
+      width: 1000px;
+    }
+
+    .menu>li {
+      width: 200px;
+    }
+
+    .menu>li>a {
+      display: block;
+      border: 1px solid black;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+
+    .submenu {
+      display: none;
+
+    }
+
+    .submenu>li>a {
+      text-decoration: none;
+    }
+
+    .menu>li:hover .submenu {
+      /* menu의 li에 마우스를 가져다대면 submenu를 어떻게 하겠다. */
+      display: block;
+    }
+
+    .submenu>li>ul{
+      display:block;
+      position:absolute;
+      top:110px;
+      left:133px;
+      display:none;
+
+    }
+
+    .submenu>li>ul>li>a{
+      text-decoration : none;
+    }
+    .submenu>li:hover .ssubmenu{
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ul.menu>li*2>a+ul.submenu>li*3{SUBMENU} -->
+  <h1>S.I.VILLAGE</h1>
+  <ul class="menu">
+    <li>
+      <a href="">여성</a>
+      <ul class="submenu">
+        <li> <a href="">아우터</a>
+          <ul class="ssubmenu">
+            <li><a href="">자켓/점퍼</a></li>
+            <li><a href="">가디건/집업</a></li>
+            <li><a href="">베스트</a></li>
+            <li><a href="">코트</a></li>
+            <li><a href="">다운/패딩</a></li>
+            <li><a href="">퍼/무스탕</a></li>
+          </ul>
+
+
+        </li>
+
+        <li> <a href="">상의</a> </li>
+        <li><a href="">하의</a> </li>
+        <li><a href="">드레스/점프수트</a> </li>
+        <li><a href="">수트</a> </li>
+        <li><a href="">라운지웨어</a> </li>
+        <li><a href="">언더웨어</a> </li>
+      </ul>
+    </li>
+    <li>
+      <a href="">남성</a>
+      <ul class="submenu">
+        <li> <a href="">아우터</a> </li>
+        <li> <a href="">상의</a> </li>
+        <li><a href="">하의</a> </li>
+        <li><a href="">수트</a> </li>
+        <li><a href="">라운지웨어</a> </li>
+        <li><a href="">언더웨어</a> </li>
+
+      </ul>
+    </li>
+
+    <li>
+      <a href="">패션잡화</a>
+      <ul class="submenu">
+        <li> <a href="">여성 가방</a> </li>
+        <li> <a href="">남성 가방</a> </li>
+        <li><a href="">여성 지갑</a> </li>
+        <li><a href="">남서 지갑</a> </li>
+        <li><a href="">여성 슈즈</a> </li>
+        <li><a href="">남성 슈즈</a> </li>
+        <li><a href="">여성 주얼리/시계</a> </li>
+        <li><a href="">남성 주얼리/시계</a> </li>
+        <li><a href="">여성 아이웨어</a> </li>
+        <li><a href="">남성 아이웨어</a> </li>
+        <li><a href="">여성 패션잡화</a> </li>
+        <li><a href="">남성 패션잡화</a> </li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="">뷰티</a>
+      <ul class="submenu">
+        <li> <a href="">향수</a> </li>
+        <li> <a href="">스킨케어</a> </li>
+        <li> <a href="">메이크업</a> </li>
+        <li><a href="">헤어케어</a> </li>
+        <li><a href="">바디케어</a> </li>
+        <li><a href="">홈 프래그런스</a> </li>
+        <li><a href="">맘 & 베이비</a> </li>
+        <li><a href="">리빙</a> </li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="">골프</a>
+      <ul class="submenu">
+        <li> <a href="">남성 골프웨어</a> </li>
+        <li> <a href="">여성 골프웨어</a> </li>
+        <li><a href="">악세서리/용품</a> </li>
+        <li><a href="">골프 클럽 </a> </li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="">리빙</a>
+      <ul class="submenu">
+        <li> <a href="">가구</a> </li>
+        <li> <a href="">조명</a> </li>
+        <li><a href="">리빙</a> </li>
+        <li><a href="">키친</a> </li>
+        <li><a href="">테크</a> </li>
+        <li><a href="">펫</a> </li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="">컬쳐</a>
+      <ul class="submenu">
+        <li> <a href="">아트</a> </li>
+        <li> <a href="">티켓</a> </li>
+        <li><a href="">숙박</a> </li>
+        <li><a href="">액티비티</a> </li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="">아동</a>
+      <ul class="submenu">
+        <li> <a href="">키즈 남아</a> </li>
+        <li> <a href="">키즈 여아</a> </li>
+        <li><a href="">베이비 남아</a> </li>
+        <li><a href="">베이비 여아</a> </li>
+        <li><a href="">신생아</a> </li>
+        <li><a href="">잡화</a> </li>
+        <li><a href="">용품</a> </li>
+      </ul>
+    </li>
+  </ul>
+
+</body>
+
+</html>

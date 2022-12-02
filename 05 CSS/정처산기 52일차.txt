@@ -1,0 +1,16 @@
+				# 05 CSS- 04Menu.html #
+
+sivillage.com/dispctg/initBrandCtg.siv?disp_ctg_no=010000039942&partnerNm=google_pc&utm_source=google&utm_medium=sa_pc&utm_campaign=siv_beauty&utm_term=딥디크&_AT=03EC13A501A7033DABC5&gclid=EAIaIQobChMIqIXmseHZ-wIViddMAh2OIA0UEAAYASAAEgJPIfD_BwE
+
+구글 확장 프로그램 - CSS Viewer --> 웹페이지의 CSS를 확인할 수 있음.
+
+맥도날드와 코리아it 아카데미 메뉴 만들어보기
+
+@https://www.sivillage.com/dispctg/initBrandCtg.siv?disp_ctg_no=010000039942&partnerNm=google_pc&utm_source=google&utm_medium=sa_pc&utm_campaign=siv_beauty&utm_term=%EB%94%A5%EB%94%94%ED%81%AC&_AT=03EC13A501A7033DABC5&gclid=EAIaIQobChMIqIXmseHZ-wIViddMAh2OIA0UEAAYASAAEgJPIfD_BwE
+
+				# 05 CSS - 06Prac.html #
+코리아 it 아카데미 홈페이지 가서 F12 누르고 네비게이션 바의 바탕부분 클릭하고 코드부분 우클릭 copy-copy outerhtml
+코리아 it 아카데미 홈페이지 가서 F12 누르고 koreaitjob.co.kr - renewal2021 - css - layout.css의 14-31줄까지 복사 붙여넣기 ctrl + alt + l
+
+
+@@@@@@@@@@@ 아무 사이트의 네비게이션 바를 여러번 구현해보고 비교해보고 하는게 중요함 @@@@@@@@@@

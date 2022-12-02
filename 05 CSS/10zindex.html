@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 
+    z-index : auto ; //기본값
+    1)position설정태그  vs position 미설정 : position설정태그가 먼저표시
+    2)position설정태그 vs position 설정태그 : HTML태그 중 마지막 태그 
+    z-index는 position 설정 이후에 적용가능
+   -->
+  <style>
+    .parent {
+      width: 500px;
+      height: 500px;
+      background: orange;
+
+    }
+
+    .child1,
+    .child2,
+    .child3 {
+      width: 150px;
+      height: 150px;
+      border: 5px dotted yellow;
+      background-color: royalblue;
+    }
+
+    .parent {
+      position: relative;
+      left: 100px;
+      top: 50px;
+    }
+
+    .child1 {
+      position: relative;
+      left: 50px;
+      top: 50px;
+      z-index:1;
+      /* z-index를 auto로 잡아주게 되면 밑에 깔림. 
+      position 설정을 해야 z-index가 의미가 있음, 아니면 설정 안됨.*/
+    }
+
+    .child2 {
+      position : relative;
+    }
+
+    .child3 {}
+
+
+    /* position이 안잡혀있다면 position이 잡혀있는게 우선순위가 높기 때문에 server에서
+    열었을 때 잡혀있는게 제일 위로 오고, 전부 position이 잡혀있다면, 먼저 position이 잡혀있는
+    애가 밑으로 깔리고 나중에 잡히는게 위로 올라옴. */
+  </style>
+
+
+</head>
+
+<body>
+  <div class="parent">
+    <div class="child1">child1</div>
+    <div class="child2">child2</div>
+    <div class="child3">child3</div>
+  </div>
+</body>
+
+</html>
