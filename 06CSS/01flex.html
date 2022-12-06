@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div {
+      border : 1px solid;
+    }
+    .parent1{
+      height: 50px;
+      /* 기본값 : 내부 items 가로 배치 */
+      display:flex;
+      /* items 방향 지정 : row, row-reverse, column, column-reverse */
+      flex-direction: row;
+      /* items 수평 배열 형태 */
+      /* space-between : 아이템과 아이템의 최대의 공간 */
+      justify-content: space-evenly;
+      /* items 수직 배치 형태 */
+      align-items: center;
+    }
+
+    .parent1>.child{
+      height: 30px;
+    }
+    /* --------------------------------------------------- */
+    .parent2{
+      height: 500px;
+      /* 기본값 : 내부 items 가로 배치 */
+      display:flex;
+      /* items 방향 지정 : row, row-reverse, column, column-reverse */
+      flex-direction: row;
+      /* items 수평 배열 형태 */
+      /* space-between : 아이템과 아이템의 최대의 공간 */
+      justify-content: space-evenly;
+      /* items 수직 배치 형태 */
+      align-items: center;
+      
+      /* items 줄바꿈하기 */
+      flex-wrap: wrap;
+      /* 교차축 정렬방식, wrap 설정 이후 사용 가능 */
+      align-content: stretch;
+    }
+
+    
+    .parent2>.child{
+      /* height : 30px; */
+      /* 기본적으로 flex설정을 하고 child가 많아지면 width : 150px을 못지키게 된다. border 안에 다 들어와야해서 */
+      width : 150px;
+    }
+
+    .parent2>.child:nth-child(1) {
+      align-self:flex-end; 
+      /* 내려갈 수 있는 최대한 아래로 */
+    }
+    .parent2>.child:nth-child(2) {
+      align-self:flex-start;
+      /* 내려갈 수 있는 최대한 위로 */
+    }
+   
+    .parent2>.child:nth-child(3) {
+      align-self:stretch;
+    }
+    
+
+  </style>
+</head>
+
+
+
+<body>
+  <!-- .parent1>.child*3{$} -->
+  <div class="parent1">
+    <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+  </div>
+  <hr>
+  <!-- .parent2>.child*12{$} -->
+  <div class="parent2">
+    <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+    <div class="child">4</div>
+    <div class="child">5</div>
+    <div class="child">6</div>
+    <div class="child">7</div>
+    <div class="child">8</div>
+    <div class="child">9</div>
+    <div class="child">10</div>
+    <div class="child">11</div>
+    <div class="child">12</div>
+  </div>
+</body>
+</html>

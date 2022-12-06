@@ -1,0 +1,17 @@
+			# 06 CSS - 03Layout.html #
+reset.css cdn 쳐서 맨위에 들어가서 링크 타고 들어가서 reset.css cdn(제일 위에 있음) 복사
+
+메인 페이지는 03Layout.html이고 common.css는 메인 페이지를 포함하는 전역? 스타일임.
+
+
+
++ 원민이형 HELP+
+1. 창이 바뀔 때마다 Header와 Footer는 계속 불러와서 쓰면 편함
+==> Header와 Footer의 html파일을 만들어서 링크를 걸어두자.
+
+2. Header 부분에서 로고는 a태그 + 이미지, 검색버튼은 버튼인데 이미지를 눌렀을 때 버튼이 되도록(type="submit", 왜냐하면 Text에 적은 내용을 DB에 보내서 있으면 화면 출력, 없으면 검색하신 내용이 없습니다.) 마이페이지 옆에 이미지는 이미지, 마이페이지는 Select, Option
+
+3. Footer 부분은 a태그
+
+			# 07 CSS - 01 transition.html #
+html과 css, Java Script 웹브라우져에 쳐서 이미지 저장
