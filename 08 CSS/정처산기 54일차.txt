@@ -1,0 +1,9 @@
+			# 08CSS - 06hermesAnimation.html
+https://www.hermes.com/kr/ko/
+에르메스 홈페이지 컬렉션 부분 차례대로 좌라락 올라오는 애니메이션 효과 만들어보기
+
+			# 09CSS -02MQ.html #
+이 파일부터 03Layout.html파일, css폴더, media폴더까지는 선생님 깃을 참고해야함. 중간에 만들어두시고 갑자기 시작하셔서 못적은게 많음.
+
+			# 10 JS - 05 defer.html #
+<script> 태그의 defer 속성은 모두 로드된 후에 해당 외부 스크립트가 실행됨을 명시합니다.

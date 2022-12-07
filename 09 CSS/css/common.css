@@ -1,0 +1,21 @@
+
+body{
+  box-sizing : border-box;
+  font-family : sans-serif;
+  font-size : 1.2rem;
+  font-weight : 500;
+  line-height : 20px;
+}
+/* ul{
+  list-style : none;
+  padding-left : 0px;
+} */
+/* ==> reset에서 ul태그의 스타일을 잡아줌(초기화) */
+a{
+  text-decoration : none;
+  color  : black;
+}
+
+header, nav, footer, .main-contents {
+  padding : 0px 150px;
+}

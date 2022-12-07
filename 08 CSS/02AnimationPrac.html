@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div{
+      width : 400px;
+      height  :40px;
+      border : 3px solid orange;
+      text-align  : center;
+      line-height  : 40px;
+      margin-left : 50%;
+      margin-top : 50%;
+    }
+
+    .d1{
+      animation-name : moving1;
+      animation-duration : 2s;
+      animation-iteration-count : infinite;
+      animation-direction : alternate;
+    }
+
+
+    .d2{
+      animation-name : moving2;
+      animation-duration : 2s;
+      animation-iteration-count : infinite;
+      animation-direction : alternate;
+    }
+
+    .d3{
+      animation-name : moving3;
+      animation-duration : 2s;
+      animation-iteration-count : infinite;
+      animation-direction : alternate;
+    }
+
+    @keyframes moving1{
+      from {
+        margin-left : 100%;
+      }
+      to {
+        margin-left : 50%;
+      }
+    }
+
+    @keyframes moving2{
+      from {
+        margin-top : 100%;
+      }
+      to {
+        margin-top: 0%;
+      }
+    }
+
+
+/* @@@@@@@@@@@@@@@@@@ 문제아직 덜 풀었고 선생님 깃 참고 @@@@@@@@@@@@@@@@@@@@@@ */
+
+    @keyframes moving3{
+      from {
+        margin-inline : 100%;
+      }
+      to {
+        margin-inline : 0%;
+      }
+    }
+
+  </style>
+  
+</head>
+<body> 
+  <div class="d1">TEST1</div>
+  <div class="d2">TEST2</div>
+  <div class="d3">TEST3</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+<button onclick="alert('HELLO WORLD')">Button</button><br>
+<button onclick="alert(30+50)">Button</button><br>
+<button onclick="alert('문자열1\n문자열2\n문자열3\n')">Button</button><br>
+<button onclick="confirm('대답해봐 예 아니오로만..')">Button</button><br>
+<div style="height:500px; background:orange;"></div>
+<a href="#">Button</a><br>
+<!-- a태그에서는 javascript:기능이름 이런식으로 넣어줘야함. -->
+<!-- 
+  a태그의 #처리는 페이지 최상단으로 화면을 보여주는 기능을 하기 때문에
+어떤 처리를 할지를 모르겠으면 javascript:void(0)을 넣어주어서 그 화면 그대로를 고수하는게 맞음.
+ -->
+<a href="javascript:void(0)">Button</a><br>
+<!-- javascript 없이 alert을 적으면 페이지가 안나옴. -->
+<a href="javascript:alert('test')">Button</a><br>
+
+</body>
+</html>
