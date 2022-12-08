@@ -1,0 +1,23 @@
+1 Basic
+- w,h,c,단위,text
+
+2 Box
+- margin, padding, border, content, border-box, content-box
+
+3 Selector
+- 요소, *, 그룹, 자식, 자손
+- 동위, 가상, ::before, ::after
+
+4 Position
+static, relative, absolute, fixed, sticky
+
+5 Layout
+display : flex
+justify-content :
+align-items :
+flex-grow : 
+flex-shrink :
+flex-basis :
+
+
+6 etc

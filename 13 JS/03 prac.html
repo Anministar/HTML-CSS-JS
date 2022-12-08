@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    td {
+      width: 35px;
+      height: 35px;
+      border: 1px solid;
+      text-align: center;
+    }
+
+    caption {
+      border: 1px solid;
+      height: 35px;
+      line-height: 35px;
+    }
+
+    .output {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    table {
+      margin: 15px;
+    }
+  </style>
+</head>
+<body>
+  <!-- 
+    2-9단까지 구구단을 가로배치하여 한번에 출력하는 자바스크립트 함수를 만들어보세요
+    태그는 table, tr, td 이용
+    스타일은 자유롭게~
+   -->
+   <button onclick="goodan()">2-9 구구단</button>
+   
+   <hr>
+   <div class="output"></div>
+   <script>
+    let goodan = function() {
+      let outputEl = document.querySelector('.output');
+      let tbl =  '<table>';
+        for(i = 2; i < 10; i++) {
+          tbl += '<caption>' + i + ' 단</caption>';
+          for(j = 0; j < 9; j++) {
+            tbl += '<tr>';
+              tbl += '<td>' + i + '</td>';
+              tbl += '<td>' +  j + '</td>';
+              tbl += '<td>' + i * j + '</td>';
+            tbl += '</tr>';
+          }
+          
+          tbl += '</table>';
+          if(i != 9) {
+            tbl += '<table>';
+          }
+          
+        }
+        
+        outputEl.innerHTML += tbl;
+    }
+    
+
+
+
+   </script>
+  
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //호이스팅(끌어올리다);
+    //코드가 실행되기 전 변수선언/함수선언이 해당 스코프의 최상단으로 끌어 올려진 것 같은 현상
+
+    func1(); //호이스팅 O - 선언형태의 함수는 가능
+    func2(); //호이스팅 X - 함수를 데이터로 저장했을때는 불가능
+    
+    //기명함수(함수선언)
+    function func1() {  // 기명함수, 함수 선언식
+      console.log("FUNC1 호출");
+    }
+    //익명함수 - 데이터로 저장(함수표현식을 변수로 저장)
+    let func2 = function(){ //익명함수, 함수 표현식(함수를 만들어서 넣어줌)
+      console.log('FUNC2 호출!');
+    }; 
+    const func3=()=>{
+      console.log('FUNC3 호출!');
+    }
+
+    //함수 표현식을 권장
+    //이유. 코드 구조를 무너뜨린다.
+    //이유. 절차대로 처리가 되지 않는다(절차지향의 기본 구조를 무시하기 때문에..)
+
+    // ==> 기명함수와 익명함수 실행 후 F12로 확인을 해보면 func1()은 console에 잘 나오는데 func2()는 오류
+    // 기명함수같은 경우는 코드 가독성이 떨어지기 때문에 권장하지 않음.
+    // 익명함수는 절차지향적, 만들고 나서 사용을 하는게 가독성에도 도움이 되고 코드가 복잡해졌을 때 좋음.
+    // func2는 결국 함수를 정의하고 난 후에 사용을 해야함. 위 코드에서 console에다가 FUNC2 호출!을 띄우고 싶으면 let func2 밑에 func2();를 사용해야한다.
+
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+1 Basic
+- w,h,c,단위,text
+
+2 Box
+- margin, padding, border, content, border-box, content-box
+
+3 Selector
+- 요소, *, 그룹, 자식, 자손
+- 동위, 가상, ::before, ::after
+
+4 Position
+static, relative, absolute, fixed, sticky
+
+5 Layout
+display : flex
+justify-content :
+align-items :
+flex-grow : 
+flex-shrink :
+flex-basis :
+
+
+6 etc
+
+
+			# 12 JS - 01 If.html#
+
+== : 값만 비교
+=== : 자료형도 비교
+
+
+확장 프로그램
+1. tabout치면 tab했을때 "", () 이거 바로 다음으로 넘겨주는 확장 프로그램 다운로드 할 수 있음.
+
+			# 13 JS - 03 QuerySelector.html #
+실행해서 크롬에서 F12 눌러서 보면 button누를때마다 btn--style 이 부분이 추가가 됨.
