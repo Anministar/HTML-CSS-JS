@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    ul{
+      /* 검정색 동그라미 */
+      /* https://seong6496.tistory.com/13 사이트 참고 - 정리 잘되어있음. */
+      list-style-type : disc; 
+    }
+  </style>
+</head>
+<body>
+  <input type="text" id="test"><button onclick="Cadd()">추가</button>
+  <hr>
+  <ul id="container"></ul>
+
+
+  <script>
+    
+    const Cadd = () => {
+      const ContainerEl = document.getElementById('container');
+      const UlEl = document.createElement('ul');
+      const InputEl = document.getElementById('test');
+      UlEl.innerHTML = `<li>${InputEl.value}</li>`;
+      ContainerEl.append(UlEl);
+    }
+  </script>
+
+</body>
+</html>

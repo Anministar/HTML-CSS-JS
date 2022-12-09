@@ -1,0 +1,16 @@
+			# Todo List #
+
+1. reset.css cdn 웹브라우져에 들어가서 jsdelivr.net있는 주소에 들어가서 오른쪽 하단 링크 들어가서 copy HTML해서 붙여넣기
+
+
+2. BS CDN 링크
+홈페이지 들어가서 아이콘의 밑에 CDN 들어가서 링크 복사 붙여넣기
+
+Footer에서 class = "btn--Todo" 이런식으로 -을 두개 쓰는게 관례라고 함.
+
+@@ 제이쿼리보다도
+SCSS??
+TypeScript??
+이런것들을 공부하는게 더 도움이 될꺼임.
+
+@ 배경은 pixabay에서 들고와서 넣어도 괜찮다.
