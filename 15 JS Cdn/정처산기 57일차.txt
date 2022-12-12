@@ -1,0 +1,26 @@
+				# 15 JS Cdn - 01.html #
+
+@ 무료 파비콘 웹 브라우져에 검색해서 아무거나 다운로드 후 html파일에서 link rel=stylesheet 이 아니라 link rel=icon으로 바꿔줘야함.
+
+@ google font 들어가서 맘에 드는 폰트 select하고 오른쪽 상단에 Selected family에 들어가서 html링크를 복사하고 html에 와서 붙여넣기
+
+@ 오픈 그래프 설정 : 카카오톡에 링크 보내면 바로 링크 밑에 미리보기 사진 뜨는거 그거임.
+
+@ swiper cdn
+웹 브라우져로 검색해서 </> 이 모양(copy script tag) 클릭해서 html에 추가
+
+@ swiper 
+웹 브라우져로 검색해서 홈페이지 들어가서 get started 들어가서 확인
+<link
+  rel="stylesheet"
+  
+Use Swiper from CDN의 style link 부분 복사 붙여넣기
+href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+
+++ ctrl + shift + L : 블록지정해서 사용하면 
+같은 블럭 한번에 바꿔줌.
+
+@ google에다가 lodash cdn 검색
+scroll의 민감도를 낮추기 위해 lodash cdn을 가져올꺼임 들어가서 copy script tag클릭
