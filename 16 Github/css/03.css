@@ -1,0 +1,46 @@
+.second-banner{}
+
+.second-banner>.inner{}
+
+.second-banner>.inner>.swiper{
+
+  height : 420px;
+
+}
+
+.second-banner>.inner>.swiper>.swiper-wrapper{
+  
+}
+
+.second-banner>.inner>.swiper>.swiper-wrapper>.swiper-slide{
+  
+  /* min-
+  width : 300px; */
+  border : 1px solid gray;
+  
+  display : flex;
+  justify-content : center;
+  align-items : center;
+
+  transition : .5s;
+
+
+  background-color : orange;
+  opacity : 0.5;
+  /* transform : SVGFEFuncAElement(0.9); */
+}
+.second-banner>.inner>.swiper>.swiper-wrapper>.swiper-slide.swiper-slide-active{
+  /* background-color  : red; */
+  opacity : 1;
+  transform : scale(1);
+  /* .second-banner .swiper-wrapper-active 이렇게 쓰면 적용 우선순위에서 밀려남. */
+}
+
+.second-banner>.inner>.swiper>.swiper-pagination{}
+
+.second-banner>.inner>.swiper>.swiper-button-prev{}
+
+.second-banner>.inner>.swiper>.swiper-button-next{}
+
+.second-banner>.inner>.swiper>.swiper-scrollbar{}
+

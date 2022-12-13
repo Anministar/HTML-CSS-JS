@@ -1,0 +1,12 @@
+@ 57일차에 했던 것처럼 내가 홈페이지 들어가서 로고같은거나 사진 다운 받고싶으면 Header부분이면 Header부분에 찾아보고 네트워크에 들어가서 sticky나 gnb, banner 와 같이 쳐서 찾아보면 됨.
+
+@ 오늘은 스타벅스 홈페이지에 bg쳐서 텀블러 이미지 다운.
+아니면 그냥 네트워크에 이미지 클릭해서 찾아봐도 됨 하나씩 클릭하면서.
+
+
+@ scrollmagic cdn 웹 브라우져 검색 들어가서 copy script tag해서 lodash 밑에 붙여넣기
+
+
+@ 06html, 06.js, 06.css는 강사님 git 참조 강사님이 더 추가하심!
+
+@16 Github==> 레파지토리 생성 후 uploading an existing file해서 드래그해서 올리면됨. 그리고 commit change하고 settings에 들어가서 Pages에 들어간 후 Branch -main 그리고 save하면 알아서 도메인을 받아서 하나 만들어줌. 그걸 시험에 제출
