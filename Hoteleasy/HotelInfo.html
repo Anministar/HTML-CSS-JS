@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- BS Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!-- Header.css -->
+  <link rel="stylesheet" href="./css/Header.css">
+
+  <!-- HotelInfo.css -->
+  <link rel="stylesheet" href="./css/HotelInfo.css">
+
+  <!-- HotelInfo.js -->
+  <script defer src="./js/HotelInfo.js"></script>
+
+  <!--Footer.css -->
+  <link rel="stylesheet" href="./css/footer.css">
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div id="logo"><a href="main.html"><img src="./image/Hoteleasylogo.png" alt=""></a></div>
+    <ul class="search">
+      <input type="text"><button type="button"><img src="./image/Hoteleasyicon2.png"></button>
+    </ul>
+    <ul class="mypage">
+      <li type="block"><img src="./image/Hoteleasyicon1.png"><a href="로그인창으로이동링크">로그인/회원가입</a></li>
+    </ul>
+  </header>
+
+
+
+
+  <!-- Body -->
+  <form onsubmit="" class="form" id="form">
+    <div class="Body">
+      <!-- House Info -->
+      <div class="HouseInfo">
+        <div class="HouseInfo_title">
+          <div>숙소정보 | 석화숲 주변 별빛천막</div>
+        </div>
+
+      </div>
+      <!-- TinyBody -->
+      <div class="tinybody">
+        <div class="HouseInfo_title1">i
+          <pre> 석화숲주변 별빛천막           ★4.85</pre>
+        </div>
+
+        <div class="viewer"><img src="./image/스타일/KakaoTalk_20221121_163144365.png" alt=""></div>
+
+        <div class="image--select">
+          <a id="change--image1" href="javascript:void(0)"><img src="./image/스타일/KakaoTalk_20221121_163144365.png"
+              alt=""></a>
+          <a id="change--image2" href="javascript:void(0)"><img
+              src="./image/스타일/c1743965-47b4-4217-a935-6991b96c09ed.webp" alt=""></a>
+          <a id="change--image3" href="javascript:void(0)"><img
+              src="./image/스타일/1e5c8b76-f155-40fc-ac97-f86821b9fda4.webp" alt=""></a>
+          <a id="change--image4" href="javascript:void(0)"><img src="./image/스타일/캡처.PNG" alt=""></a>
+          <div class="viewer--btn">
+            <div><i class="bi bi-arrow-left-square leftbtn"></i></div>
+            <div><i class="bi bi-arrow-right-square rightbtn"></i></div>
+          </div>
+        </div>
+        <!-- Payment -->
+        <div class="Payment">
+          <div>체크인 : <input type="date" name="check--in" id="check--in"></div>
+          <hr>
+          <div>체크아웃 : <input type="date" name="check--out" id="check--out"></div>
+          <hr>
+          <div class="number">
+            인원 :
+            <span class="number--frame">
+              성인 : <input type="number" min="1" max="150" step="1" value="0">
+              아동 : <input type="number" min="1" max="150" step="1" value="0">
+              <span>★4.85</span>
+            </span>
+          </div>
+          <hr>
+          <div>총 금액 : <i class="bi bi-wallet"></i> 89000원 <span id="daycal"></span> / 박 </div>
+          <hr>
+          <div><i class="bi bi-wallet-fill"></i>선착순 8000원 할인! (삼성카드로 결제시)</div>
+          <input type="submit" value="결제하기">
+        </div>
+
+
+        <!-- Review -->
+        <div class="Review"></div>
+      </div>
+
+
+    </div>
+    <!-- Footer -->
+
+    <footer>
+      <div class="foot1">
+        <h1>HOTEL EASY 지원 </h1><br>
+        <div class="footchi"><a href="">ⓞ이용약관</a><a href="">ⓞ환불정책</a><a href="">ⓞ도움말 & FAQ</a></div><br>
+        <!-- <div class="footchi"></div> 
+      <div class="footchi"></div> -->
+      </div>
+      <div class="foot2">
+        <a href="">로그인/회원가입</a><br>
+        <h1>ⓞ2022 HOTELEASY</h1>
+      </div>
+  </form>
+
+  </footer>
+
+
+
+</body>
+
+
+
+</html>
