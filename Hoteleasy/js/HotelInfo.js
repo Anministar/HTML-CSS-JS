@@ -1,10 +1,10 @@
-const BasicimgEl = document.querySelector('.Body .tinybody>#basic--image');
-const ChangeimgEl1 = document.querySelector('.Body .tinybody>.image--select>#change--image1');
-const ChangeimgEl2 = document.querySelector('.Body .tinybody>.image--select>#change--image2');
-const ChangeimgEl3 = document.querySelector('.Body .tinybody>.image--select>#change--image3');
-const ChangeimgEl4 = document.querySelector('.Body .tinybody>.image--select>#change--image4');
+const BasicimgEl = document.querySelector('.contents .tinybody>#basic--image');
+const ChangeimgEl1 = document.querySelector('.contents .tinybody>.image--select>#change--image1');
+const ChangeimgEl2 = document.querySelector('.contents .tinybody>.image--select>#change--image2');
+const ChangeimgEl3 = document.querySelector('.contents .tinybody>.image--select>#change--image3');
+const ChangeimgEl4 = document.querySelector('.contents .tinybody>.image--select>#change--image4');
 
-const ViewerImgEl = document.querySelector('.Body .tinybody>.viewer>img');
+const ViewerImgEl = document.querySelector('.contents .tinybody>.viewer>img');
 
 //이미지 클릭시 VIEWER 전환
 ChangeimgEl1.addEventListener('click', function () {

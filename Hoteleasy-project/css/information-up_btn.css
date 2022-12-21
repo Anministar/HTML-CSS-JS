@@ -1,0 +1,134 @@
+.contents {
+  margin: auto;
+  width: 1558px;
+  height: 1800px;
+  border: 1px solid lavenderblush;
+  background-color: lavenderblush;
+}
+
+
+
+.contents>.main-banner {
+  margin-bottom: -40px;
+}
+
+.main-banner>h1 {
+  width: auto;
+  margin: 0px 30px 50px;
+  font-size: larger;
+  text-align: start;
+  vertical-align: middle;
+}
+
+.main-banner>h1>img {
+  width: 50px;
+  height: 50px;
+  vertical-align: -15px;
+}
+
+
+
+
+.main-contents>section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {}
+
+.item>a {
+  text-decoration: none;
+}
+
+.item>a>img {
+  width: 250px;
+  height: 200px;
+  border: 15px solid white;
+}
+
+.onevent>div>a>img {
+  /* width: auto; */
+  /* height: auto; */
+  margin: 30px 0px 0px 450px;
+  transform: translateX(450px);
+  border: 2px solid thistle;
+  border-radius: 10px;
+  transform: translateY(250px);
+
+
+}
+
+
+
+
+
+.event {
+  transform: translateY(150px);
+}
+
+.second-banner>.inner>.swiper {
+  width: 1250px;
+
+}
+
+.second-banner>.inner>.swiper>.swiper-wrapper>.swiper-slide {
+
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .0.7s;
+  transform: scale(0.5);
+  opacity: 0.7;
+}
+
+.second-banner>.inner>.swiper>.swiper-wrapper>.swiper-slide.swiper-slide-active {
+  opacity: 5;
+  transform: scale(0.9);
+}
+
+.contents {
+  margin: 0 auto;
+  width: 1558px;
+  height: 1800px;
+
+  border: 1px solid lavenderblush;
+  background-color: lavenderblush;
+}
+
+.contents>.btn-up>.btn-up-position {
+  width: 20px;
+  height: 5px;
+
+
+}
+
+/* 최상단 버튼 */
+.contents>.btn-up>.btn-up-position>i.bi.bi-arrow-up-circle::before {
+  font-size: 40px;
+  color: black;
+  width: 200px;
+  height: 100px;
+  left: 1800px;
+  transform: translateY(800px);
+  position: fixed;
+
+}
+
+#btn_scroll_top {
+  display: flex;
+  position: relative;
+  bottom: 80px;
+
+}
+
+/* 최상단 버튼 애니메이션 */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

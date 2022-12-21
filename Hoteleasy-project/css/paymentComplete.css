@@ -1,0 +1,245 @@
+.payment-color{
+  width: 1450px;
+  height: 1695px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  left: 58px;
+  /* top: 15px; */
+  bottom: 785px;
+}
+
+.payment-color>h1{
+  width: 500px;
+  height: 30px;
+  /* border: 1px solid red; */
+  position: absolute;
+  display: flex;
+  left: 480px;
+  top: 90px;
+  font-size: 50px;
+  font-weight: bolder;
+
+}
+.title-hr{
+  width: 1210px;
+  display: flex;
+  position: relative;
+  bottom: 1510px;
+  
+}
+.roomtype-person{
+  display: flex;
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;  
+  top: 230px;
+  left: 112px;
+}
+.room-info{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 230px;
+  left: 950px;
+}
+.people{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 230px;
+  left: 1253px;
+}
+.checkin{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 325px;
+  left: 112px;
+  font-weight: bold;
+
+}
+.checkin-date{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 325px;
+  left: 1150px;
+}
+.checkout{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 430px;
+  left: 112px;
+  font-weight: bold;
+}
+
+.checkout-date{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 430px;
+  left: 1150px;
+}
+
+.reserve-name{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 530px;
+  left: 110px;
+  font-weight: bold;
+}
+
+.reserve-mem_name{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 530px;
+  left: 1217px;
+  
+}
+
+.room-name{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 630px;
+  left: 110px;
+  font-weight: bold;
+  
+}
+
+.reg-room-name{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 630px;
+  left: 1243px;
+}
+
+.method-of-payment{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 730px;
+  left: 110px;
+  font-weight: bold;
+}
+
+.payment-meet{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 730px;
+  left: 1215px;
+}
+
+.room-phone{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 830px;
+  left: 110px;
+  font-weight: bold;
+}
+
+.room-phone-num{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 830px;
+  left: 1158px;
+  /* text-align: left; */
+}
+
+.reserve-code{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 930px;
+  left: 110px;
+  font-weight: bold;
+}
+
+.reserve-code-num{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 930px;
+  left: 1136px;
+  /* text-align: left; */
+}
+
+.middle-hr{
+  width: 1210px;
+  display: flex;
+  position: relative;
+  bottom: 630px;
+}
+
+.total-money{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 1130px;
+  left: 110px;
+  font-weight: bold;
+}
+
+.total-money-num{
+  height: 30px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 1130px;
+  left: 1201px;
+}
+
+.payment-info{
+  /* height: 10px; */
+  width: 1000px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 1205px;
+  left: 340px;
+  color: red;
+}

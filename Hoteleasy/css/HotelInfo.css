@@ -1,18 +1,18 @@
-/* Header 밑 Body */
-.Body {
+/* Header 밑 contents */
+/* .contents {
   position: relative;
   background-color: lavenderblush;
   width: 1258px;
   height: 1800px;
   margin: auto;
-}
+} */
 
 /* HouseInfo 위 제목 */
-.Body .HouseInfo_title {
+.contents .HouseInfo_title {
   position: absolute;
   border: 1px solid royalblue;
   border-radius: 10px;
-  width: 1000px;
+  width: 1300px;
   height: 50px;
   margin-top: 60px;
   margin-left: 120px;
@@ -23,24 +23,24 @@
   background-color: darkgray;
 }
 
-/* Header 밑 Body 안의 tinybody */
-.Body .tinybody {
+/* Header 밑 contents 안의 tinycontents */
+.contents .tinybody {
   position: absolute;
   display: flex;
 
   background-color: black;
-  width: 1016px;
-  height: 1500px;
+  width: 1316px;
+  height: 1600px;
   margin-top: 140px;
   margin-left: 120px;
 }
 
-/* tinybody 안의 제목과 별점*/
-.Body .HouseInfo_title1 {
+/* tinycontents 안의 제목과 별점*/
+.contents .HouseInfo_title1 {
   position: relative;
   border: 1px solid black;
   border-radius: 10px;
-  width: 440px;
+  width: 640px;
   height: 40px;
   margin: 10px 10px;
   font-size: 1.4rem;
@@ -49,16 +49,16 @@
   line-height: 0px;
 }
 
-/* tinybody 안의 제목과 별점(글씨) */
-.Body .HouseInfo_title1>pre {
+/* tinycontents 안의 제목과 별점(글씨) */
+.contents .HouseInfo_title1>pre {
   color: white;
 }
 
-/* tinybody 안의 사진보여지는 영역 */
-.Body .tinybody>.viewer {
+/* tinycontents 안의 사진보여지는 영역 */
+.contents .tinybody>.viewer {
   position: absolute;
-  width: 445px;
-  height: 400px;
+  width: 645px;
+  height: 550px;
   border: 1px solid gray;
   border-radius: 15px;
   margin-top: 60px;
@@ -66,45 +66,47 @@
 }
 
 /* 기본 이미지 Css */
-.Body .viewer>img {
+.contents .viewer>img {
   border-radius: 15px;
   width: 100%;
   height: 100%;
 }
 
 /* 이미지 선택 창 */
-.Body>.tinybody>.image--select {
+.contents>.tinybody>.image--select {
   position: relative;
   border: 3px solid royalblue;
-  width: 110px;
-  height: 440px;
+  width: 160px;
+  height: 590px;
   left: 15px;
+  top : 15px;
   background-color: gray;
+  border-radius : 10px;
 }
 
 /* 이미지 선택 창 안의 이미지들 */
-.Body>.tinybody>.image--select>a>img {
+.contents>.tinybody>.image--select>a>img {
   position: relative;
-  width: 100px;
-  height: 90px;
-  margin-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  width: 150px;
+  height: 120px;
+  margin-left: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 /* 오른쪽, 왼쪽 버튼의 상위 div태그 */
-.Body>.tinybody>.image--select>.viewer--btn {
+.contents>.tinybody>.image--select>.viewer--btn {
   display: flex;
   justify-content: space-between;
 }
 
 /* 왼쪽 버튼 */
-.Body>.tinybody>.image--select>.viewer--btn>div>.bi-arrow-left-square {
+.contents>.tinybody>.image--select>.viewer--btn>div>.bi-arrow-left-square {
   margin-left: 5px;
 }
 
 /* 오른쪽 버튼 */
-.Body>.tinybody>.image--select>.viewer--btn>div>.bi-arrow-right-square {
+.contents>.tinybody>.image--select>.viewer--btn>div>.bi-arrow-right-square {
   margin-right: 5px;
 }
 
@@ -112,15 +114,17 @@
 /* payment division 태그 */
 .Payment {
   position: relative;
-  width: 380px;
-  height: 420px;
+  width: 430px;
+  height: 470px;
   left: 35px;
-  top: 20px;
+  top: 50px;
   background-color: white;
   border-radius: 20px;
   font-size: 1.5em;
   font-weight: 500;
   text-align: center;
+  
+  
 }
 
 
@@ -135,9 +139,17 @@
   text-align: center;
 }
 
+.Payment #check--in {
+  margin-top : 20px;
+}
+.Payment #check--out {
+  margin-top : 10px;
+}
+
 /* 인원에 대한 css */
 .Payment .number {
   font-weight: 600;
+  
 }
 
 /* 인원분류에 대한 css */
@@ -146,8 +158,271 @@
   border: 1px solid gray;
   border-radius: 5px;
   padding: 5px;
+  
+}
+/* 총 금액에 대한 css */
+.Payment .total{
+  display : flex;
+  justify-content : space-around;
+}
+/* 인원숫자 올리는 박스에 대한 css */
+.Payment .number--frame>input[type=number] {
+  font-size : 22px;
+  width : 40px;
+  height : 30px;
+}
+/* 추가사항 텍스트에 대한 css */
+.Payment .plus--description{
+  font-weight : 200;
+  font-size : 20px;
+  text-align : center;
+}
+/* 결제하기 버튼에 대한 css */
+.Payment input[type=submit]{
+  background-color : rgb(161, 10, 10);
+  color : white;
+  width : 380px;
+  height : 50px;
+  font-size : 28px;
+  border-radius : 10px;
+  cursor : pointer;
+  margin-top : 10px;
+}
+/* 회원정보, 로그아웃으로 넘어가는 link에 대한 css */
+.Payment>.link{
+  margin-top : 20px;
+  font-size : 22px;
+}
+/* review창의 Frame에 대한 css */
+.frame--reviewinfo{
+  position : absolute;  
+  width : 1260px;
+  height : 880px;
+  border-radius : 15px;
+  background-color : white;
+  margin-left : 28px;
+  margin-top : 680px;
+ 
 }
 
-.Payment .number--frame.input[type] {
-  /* width :  */
+.frame--reviewinfo .vertical--line1{
+  position : absolute;
+  width : 630px;
+  height : 260px;
+  border-right : 3px solid lightgray;
+  margin-top : 15px;
+}
+
+/* roominfo에 대한 css */
+.frame--reviewinfo>.roominfo--title{
+  display : flex;
+  font-size : 30px;
+  margin-top : 20px;
+}
+.frame--reviewinfo>.roominfo--title>#title1{
+  margin-left : 170px;
+  margin-bottom : 10px;
+}
+.frame--reviewinfo>.roominfo--title>#title2{
+  margin-left : 440px;
+  margin-bottom : 10px;
+}
+
+/* 숙박정보에 대한 css */
+.frame--reviewinfo>.roominfo{
+  height : 200px;
+  font-size : 30px;
+  color : white;
+  text-align : left;
+  display : flex;
+  justify-content : space-evenly;
+  
+}
+/* 숙박정보의 내용에 대한 css */
+.frame--reviewinfo .roominfo--content{
+  width : 400px;
+  border-radius : 10px;
+  background-color : black;
+}
+.frame--reviewinfo .roominfo--content>span{
+  font-size : 1.3rem;
+}
+.frame--reviewinfo .roominfo--content>i{
+  font-size : 1.2em;
+}
+
+
+/* 숙박정보의 편의시설에 대한 css */
+.frame--reviewinfo .roominfo--convience{
+  width : 400px;
+  border-radius : 10px;
+  background-color : black;
+  
+}
+.frame--reviewinfo .roominfo--convience>b{
+  font-size : 1.3rem;
+}
+.frame--reviewinfo .roominfo--convience>i{
+  font-size : 1.7em;
+  margin-top : 6px;
+}
+
+/* 숙소리뷰에 대한 css */
+.frame--reviewinfo .roominfo--reviewtitle{
+  font-size : 30px;
+  margin-top : 25px;
+  margin-left : 70px;
+  margin-bottom : 10px;
+}
+
+/* 숙소리뷰 내용에 대한 css */
+.roominfo--review{
+  width : 1120px;
+  height : 250px;
+  margin-left : 70px;
+  background-color : black;
+  border-radius : 10px;
+  color : white;
+  /* display : flex; */
+  
+}
+/* 세로줄 */
+.roominfo--review .vertical--line2{
+  position : absolute;
+  width : 566px;
+  height : 200px;
+  border-right : 3px solid white;
+  top : 390px;
+  
+}
+
+/* 청결도, 정확성에 대한 css */
+.roominfo--review1{
+  font-size : 30px;
+  font-weight : 500;
+  /* letter-spacing : 10px */
+  word-spacing : 20px;
+  display : flex;
+  justify-content : space-between;
+  /* justify-content : space-around; */
+  text-align : left; 
+  top : 10px;
+}
+
+/* 의사소통, 위치에 대한 css */
+.roominfo--review2{
+  font-size : 30px;
+  font-weight : 500;
+  word-spacing : 25px;
+  display : flex;
+  justify-content : space-between;
+  /* justify-content : space-around; */
+  text-align : left; 
+}
+/* 체크인, 가성비에 대한 css */
+.roominfo--review3{
+  font-size : 30px;
+  font-weight : 500;
+  word-spacing : 20px;
+  display : flex;
+  justify-content : space-between;
+  /* justify-content : space-around; */
+  text-align : left; 
+}
+
+/* progress바에 대한 css */
+.roominfo--review1 .progressTag{
+  font-size : 25px;
+}
+.roominfo--review2 .progressTag{
+  font-size : 25px;
+}
+.roominfo--review3 .progressTag{
+  font-size : 25px;
+}
+
+/* bar-container에 대한 margin설정 */
+.roominfo--review1>.bar-container{
+  margin-top : 40px;
+  margin-left : 40px;
+  margin-right : 40px;
+}
+.roominfo--review2>.bar-container{
+  margin-left : 10px;
+  margin-right : 40px;
+  
+}
+.roominfo--review3>.bar-container{
+  margin-left : 40px;
+  margin-right : 40px;
+}
+
+
+.text--review .icon--date {
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  /* margin-top: -5px; */
+}
+
+.text--review .icon--date>i {
+  color: gray;
+  font-size: 60px;
+  margin-left: 45px;
+
+
+}
+
+.text--review .date--star {
+  display: flex;
+
+
+  margin-left: 30px;
+  font-size: 23px;
+}
+
+.text--review .date--star>span {
+  color: rgb(231, 231, 21);
+  margin-left: 85px;
+  font-size: 28px;
+}
+
+.text--review .name--content {
+  
+}
+
+.text--review .name--content>.name {
+  margin-left: 42px;
+  width: 60px;
+  height: 30px;
+  border: 1px solid lightgray;
+  font-size: 15px;
+  text-align: center;
+  line-height: 30px;
+  background-color: gray;
+  color: white;
+  border-radius: 10px;
+  /* mb tab ==> margin-bottom */
+  /* margin-bottom: 5px; */
+
+
+
+}
+
+.text--review .name--content>.content {
+  display : flex;
+  justify-content : space-between;
+  margin-left: 133px;
+  margin-top: -45px;
+  border: 1px solid lavenderblush;
+  width:80%;
+  height: 45px;
+  line-height: 45px;
+  background-color: lavenderblush;
+
+  
+}
+
+.text--review .name--content>.content>.heart--number>i{
+  color : red;
 }

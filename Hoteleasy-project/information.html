@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>HotelEasy</title>
+  <!-- reset.css cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <!-- swiper.cnd -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"
+    integrity="sha512-wdUM0BxMyMC/Yem1RWDiIiXA6ssXMoxypihVEwxDc+ftznGeRu4s9Fmxl8PthpxOh5CQ0eqjqw1Q8ScgNA1moQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- BS5 icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- favicon -->
+  <link rel="icon" href="img/favicon2.png">
+  <!-- common.css -->
+  <link rel="stylesheet" href="css/common.css">
+  <!-- header.css -->
+  <link rel="stylesheet" href="css/header.css">
+  <!-- contents.css -->
+  <link rel="stylesheet" href="css/information-up_btn.css">
+  <!-- <link rel="stylesheet" href="css/information-up_btn.css"> -->
+
+  <!-- footer.css -->
+  <link rel="stylesheet" href="css/footer.css">
+  <!-- button.css -->
+  <link rel="stylesheet" href="css/information-button.css">
+  <link rel="stylesheet" href="button.css">
+  <!-- information.css -->
+  <link rel="stylesheet" href="css/information.css">
+  <!-- contents fixed.css-->
+  <!-- <link rel="stylesheet" href="css/con"> -->
+  <!-- topbutton.js -->
+  <script defer src="js/topbutton.js"></script>
+  <!-- information.js -->
+  <script defer src="js/information.js"></script>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <header>
+      <div id="logo"><a href="main.html"><img src="img/HotelEasy로고.png" alt=""></a></div>
+      <ul class="search">
+        <input type="text"><button type="button"><img src="img/돋보기.png"></button>
+      </ul>
+      <ul class="mypage">
+        <li type="block"><img src="img/회원.png"><a href="#">로그인/회원가입</a></li>
+      </ul>
+    </header>
+
+
+
+    <div class="contents">
+      <!-- 최상단버튼 -->
+      <div iv class="btn-up">
+        <a href="#" class="btn-up-position">
+          <i class="bi bi-arrow-up-circle" id="btn_scroll_top"></i>
+        </a>
+      </div> <!-- 버튼 division 끝-->
+      <a href="">마이페이지 > 회원정보수정</a><br>
+      <div class="back">
+
+        <div class="inner">
+          <!-- 고양이로고 -->
+          <nav>
+            <ul id="main-menu">
+              <li><a href="#">예약조회</a></li>
+              <li><a href="#">로그아웃</a></li>
+              <li><a href="#">회원탈퇴</a></li>
+            </ul>
+          </nav>
+          <div class="cat"><img src="img/고양이.png" alt=""></div>
+          <form>
+            <!-- 회원정보 수정 타이틀 -->
+            <div class="title">
+              <h2 style="font-size: 35px;">회원정보수정</h2>
+            </div>
+            <div class="title">
+              <h1 style="font-size: 21px;"></h1>
+            </div>
+            <div class="C">
+              <div>
+              </div>
+              <!-- 닉네임 -->
+              <div class="title">
+                <h style="font-size: 28px;">닉네임</h>
+              </div>
+              <div class="name1">
+                <input id="name1" type="text" placeholder="사이비교주">
+                <div class="btn1">
+                  <a href="#" class="button">수정하기</a>
+                </div>
+                <div id="name1Error" class="error"></div>
+              </div>
+              <!-- 이름 -->
+              <div class="title">
+                <h style="font-size: 28px;">이름</h>
+              </div>
+              <div class="name">
+                <input id="name" type="text" placeholder="김민식" name="uName" readonly>
+                <div class="btn4">
+                  <a href="#" class="button">변경불가</a>
+                </div>
+                <div id="nameError" class="error"></div>
+              </div>
+
+              <!-- 아이디 -->
+              <div class="title">
+                <h style="font-size: 28px;">아이디</h>
+              </div>
+              <div>
+                <div class="id">
+                  <input id="id" type="text" placeholder="kingminsik1234" name="uName" readonly>
+                  <div class="btn2">
+                    <a href="#" class="button">변경불가</a>
+                  </div>
+                  <div id="id Error" class="error"></div>
+                </div>
+              </div>
+              <!-- 비밀번호 -->
+              <div class="title">
+                <h style="font-size: 28px;">비밀번호</h>
+              </div>
+              <div class="password">
+                <input id="password" type="password" placeholder="**************">
+                <div class="btn5">
+                  <a href="#" class="button">수정하기</a>
+                </div>
+              </div>
+
+
+              <!-- 휴대폰번호 -->
+              <div class="title">
+                <h style="font-size: 28px;">휴대폰 번호</h>
+              </div>
+              <div class="phone">
+                <input id="phoneCheck" type="phone" placeholder="010-1234-1111">
+                <div class="btn3">
+                  <a href="#" class="button">수정하기</a>
+                </div>
+              </div>
+            </div>
+            <div class="line">
+              <hr>
+              <div class="Save">
+                <a href="#" class="button">저장하기</a>
+              </div>
+            </div>
+        </div>
+
+      </div>
+      
+    </div>
+    <!-- contents class division 끝
+    -->
+
+  </div>
+
+
+  <footer>
+    <div class="foot1">
+      <h1>HOTEL EASY 지원 </h1><br>
+      <div class="footchi"><a href="Terms of service.html">ⓞ이용약관</a><a href="refund policy.html">ⓞ환불정책</a><a href="#">ⓞ도움말 & FAQ</a></div><br>
+    </div>
+    <div class="foot2">
+      <a href="Login-fixed.html">로그인/회원가입</a><br>
+      <h1>ⓞ2022 HOTELEASY</h1>
+    </div>
+  </footer>
+
+  </div>
+
+
+</body>
+
+</html>

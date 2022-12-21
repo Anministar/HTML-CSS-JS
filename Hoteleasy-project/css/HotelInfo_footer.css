@@ -1,0 +1,116 @@
+footer {
+  border: 1px solid rgb(224, 224, 224);
+  height: 140px;
+  width: 1256px;
+  background-color: rgb(224, 224, 224);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow: hidden;
+  align-items: center;  
+}
+
+.foot1 {
+  /* width: auto; */
+  height: 90px;
+  width: 600px;
+  /* border: 1px solid red; */
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  right: 150px;
+
+}
+
+/* .foot2>a{ */
+/* border: 1px solid red; */
+/* height: 10px;
+  width: 119px;
+  margin-top: 20px;
+  position: absolute;
+  display: flex;
+} */
+.foot1>h1 {
+  height: 15px;
+  width: 200px;
+  font-size: 20px;
+  margin-top: 10px;
+  /* margin-bottom: px; */
+  display: flex;
+  margin-left: 15px;
+  position: relative;
+  top: 10px;
+}
+
+footer>.foot1>.footchi {
+  width: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  border: 0;
+  top: 100px;
+  /* top:91%; */
+}
+
+footer>.foot1>.footchi>a {
+  height: 25px;
+  /* border: 1px solid red; */
+  display: flex;
+  position: relative;
+  top: 50px;
+  right: 213px;
+}
+
+footer>.foot2 {
+  /* position: absolute; */
+  height: 140px;
+  width: 2500px;
+  top: 100px;
+  /* border: 1px solid red ; */
+  display: flex;
+  /* position: relative; */
+  /* margin-top: 20px;
+ margin-left: 10px;
+  justify-content: left; */
+
+  /* display: block; */
+  /* justify-content: space-around; */
+  /* text-align: center; */
+}
+
+footer>.foot2>h1 {
+  font-size :20px;
+  width: 200px;
+  height: 20px;
+  /* position: static; */
+  margin-top: 110px;
+
+    /* border: 1px solid red; */
+
+}
+
+.foot2>a {
+  /* border: 1px solid red; */
+  width: 130px;
+  height: 20px;
+
+  /* position: static; */
+  /* margin-bottom: 29%; */
+  margin-top: 110px;
+  /* margin-left: 82%; */
+  margin-left: 525px;
+}
+
+.footchi>a,
+.foot2>a {
+  color: black;
+}
+
+.footchi>a:hover,
+.foot2>a:hover {
+  color: white;
+}
+
+
+

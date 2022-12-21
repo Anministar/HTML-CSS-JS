@@ -1,0 +1,223 @@
+.breadscrumb {
+  width: 280px;
+  height: auto;
+  /* border: 1px solid red; */
+  position: relative;
+  display: flex;
+  top: 5px;
+  font-size: 16px;
+  left: 58px;
+}
+
+.use {
+  height: 1650px;
+  width: 1460px;
+  background-color: lightgray;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  left: 50px;
+  /* bottom: 25px; */
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.use>.service-title {
+  width: 250px;
+  height: 40px;
+  /* border: 1px solid red; */
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  left: 600px;
+}
+
+.use>.first-title {
+  /* border: 1px solid red; */
+  height: 20px;
+  width: 440px;
+  position: relative;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  top: 55px;
+  left: -215px;
+}
+
+.use>.first {
+  width: 1400px;
+  height: 100px;
+  background-color: whitesmoke;
+  display: flex;
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  border-radius: 8px;
+}
+
+.second-title {
+  position: absolute;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  top: 185px;
+  left: 32px;
+  right: 385px;
+  /* border: 1px solid red; */
+  width: 650px;
+  height: 30px;
+  margin-top: 3px;
+ 
+}
+
+.use>.second {
+  /* border: 1px solid red; */
+  width: 1400px;
+  height: 120px;
+  background-color: whitesmoke;
+  display: flex;
+  position: absolute;
+  top: 214px;
+  left: 30px;
+  border-radius: 8px;
+}
+
+.use>.third-title {
+  /* border: 1px solid red; */
+  width: 650px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  top: 340px;
+  left: 32px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.use>.third {
+  width: 1400px;
+  height: 200px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  display: flex;
+  position: absolute;
+  top: 367px;
+  left: 30px;
+  align-content: space-between;
+}
+
+.use>.fourth-title {
+  width: 650px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  top: 575px;
+  left: 32px;
+
+}
+
+.use>.fourth {
+  width: 1400px;
+  height: 100px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  display: flex;
+  position: absolute;
+  top: 600px;
+  left: 30px;
+}
+
+.use>.fifth-title {
+  width: 650px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  top: 705px;
+  left: 32px;
+  margin-top: 2px;
+}
+
+.use>.fifth {
+  width: 1400px;
+  height: 260px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  display: flex;
+  position: absolute;
+  top: 735px;
+  left: 30px;
+}
+
+.use>.sixth-title{
+  width: 650px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  top: 998px;
+  left: 32px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.use>.sixth{
+  width: 1400px;
+  height: 225px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  display: flex;
+  position: absolute;
+  top: 1030px;
+  left: 30px;
+}
+.use>.seventh-title{
+  width: 650px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  left: 30px;
+  top: 1260px;
+  margin-top: 2px;
+}
+
+.use>.seventh{
+  width: 1400px;
+  height: 120px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  display: flex;
+  position: absolute;
+  top: 1290px;
+  left: 30px;
+}
+
+.use>.eighth-title{
+  width: 650px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  left: 30px;
+  top: 1420px;
+}
+.use>.eighth{
+  width: 1400px;
+  height: 142px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  display: flex;
+  position: absolute;
+  top: 1450px;
+  left: 30px;
+}
+

@@ -1,0 +1,205 @@
+.login-wrapper {
+  height: 800px;
+  width: 750px;
+  /* border: 1px solid red; */
+  background-color: rgb(253, 250, 250);
+  border-radius: 10%;
+  position: relative;
+  margin: 0px auto;
+  display: flex;
+  top: 40px;
+
+}
+
+.contents>.login-wrapper>h1 {
+  width: 485px;
+  height: 25px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  position: relative;
+  left: 250px;
+  top: 50px;
+}
+
+.contents>.login-wrapper>#login-form {
+  /* border: 1px solid red; */
+  height: 710px;
+  width: 1300px;
+  display: flex;
+  position: relative;
+  top: 90px;
+  right: 105px;
+}
+
+.contents>.login-wrapper>#login-form>.icons>i {
+  /* border: 1px solid red; */
+  font-size: 40px;
+  position: relative;
+  display: flex;
+  top: 8px;
+  left: 85px;
+}
+
+.contents>.login-wrapper>#login-form>.icons>.bi-key {
+  top: 22px;
+}
+
+.contents>.login-wrapper>#login-form>.login-input {
+  /* border: 1px solid red; */
+  height: 400px;
+  width: 500px;
+  position: relative;
+  /* top: 50px; */
+
+}
+
+.contents>.login-wrapper>#login-form>.login-input>.id {
+
+  border-radius: 8px;
+  position: relative;
+  height: 40px;
+  width: 250px;
+  left: 90px;
+  top: 5px;
+
+}
+
+.contents>.login-wrapper>#login-form>.login-input>.pw {
+  position: relative;
+  border-radius: 8px;
+  height: 40px;
+  width: 250px;
+  top: 15px;
+  left: 90px;
+}
+
+.contents>.login-wrapper>#login-form>.login-btn {
+  /* border: 1px solid red; */
+  border: none;
+  background-color: rgb(46, 46, 46);
+  color: whitesmoke;
+  font-size: 22px;
+  border-radius: 8px;
+  width: 255px;
+  height: 40px;
+  position: absolute;
+  /* display: flex; */
+  left: 130px;
+  top: 130px;
+
+}
+
+.contents>.login-wrapper>#login-form>.login-btn>.login-button {
+  text-decoration: none;
+  color: white;
+}
+
+.login-menu {
+  width: 360px;
+  margin-top: 30px;
+  margin-left: 190px;
+  list-style: none;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 200px;
+  right: 128px;
+
+}
+
+.login-register {
+  text-decoration: none;
+  color: black;
+}
+
+
+.sns-font {
+  position: absolute;
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  top: 350px;
+  left: 0px;
+  width: 500px;
+
+}
+
+.sns-login {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  border-color: white;
+  width: 360px;
+  height: 150px;
+  top: 400px;
+  right: 155px;
+}
+
+.sns-login>li>button {
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  /* border: 1px solid red; */
+
+
+}
+
+.facebook,
+.insta,
+.google,
+.e-mail {
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 8px;
+  /* background-color: transparent;
+  border-color: white; */
+}
+
+
+.sns-font::before {
+  content: '';
+  flex-grow: 1;
+  background: black;
+  height: 1px;
+  margin-right: 10px;
+}
+
+.sns-font::after {
+  content: '';
+  flex-grow: 1;
+  background: black;
+  height: 1px;
+  margin-right: 10px;
+}
+
+
+.id:hover {
+
+  box-shadow: inset 0 0 0 3px #fff,
+    0 0 0 4px #fff,
+    3px -3px 30px rgb(255, 180, 180),
+    -3px 3px 30px rgb(255, 180, 180);
+}
+
+.pw:hover {
+
+  box-shadow: inset 0 0 0 3px #fff,
+    0 0 0 4px #fff,
+    3px -3px 30px rgb(255, 180, 180),
+    -3px 3px 30px rgb(255, 180, 180);
+}
+
+/* .contents>.login-wrapper>#login-form>button:hover {
+
+  box-shadow: inset 0 0 0 3px #fff,
+    0 0 0 4px #fff,
+    3px -3px 30px rgb(255, 180, 180),
+    -3px 3px 30px rgb(255, 180, 180);
+} */

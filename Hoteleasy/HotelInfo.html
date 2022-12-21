@@ -9,8 +9,11 @@
   <!-- BS Icon -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/9c8afd2910.js" crossorigin="anonymous"></script>
+
   <!-- Header.css -->
-  <link rel="stylesheet" href="./css/Header.css">
+  <link rel="stylesheet" href="./css/header.css">
 
   <!-- HotelInfo.css -->
   <link rel="stylesheet" href="./css/HotelInfo.css">
@@ -18,103 +21,235 @@
   <!-- HotelInfo.js -->
   <script defer src="./js/HotelInfo.js"></script>
 
+  <!-- common.css -->
+  <link rel="stylesheet" href="./css/common.css">
+
+  <!-- content.css -->
+  <link rel="stylesheet" href="./css/contents fixed.css">
+
+  <!-- content.js -->
+  <script defer src="./js/contents.js"></script>
+
+  <!-- button.css -->
+  <link rel="stylesheet" href="./css/button.css">
+
+  <!-- topbutton.js -->
+  <script defer src="./js/topbutton.js"></script>
   <!--Footer.css -->
-  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/HotelInfo_footer.css">
+
 
 </head>
 
 <body>
   <!-- Header -->
-  <header>
-    <div id="logo"><a href="main.html"><img src="./image/Hoteleasylogo.png" alt=""></a></div>
-    <ul class="search">
-      <input type="text"><button type="button"><img src="./image/Hoteleasyicon2.png"></button>
-    </ul>
-    <ul class="mypage">
-      <li type="block"><img src="./image/Hoteleasyicon1.png"><a href="로그인창으로이동링크">로그인/회원가입</a></li>
-    </ul>
-  </header>
+  <div id="wrapper">
+    <header>
+      <div id="logo"><a href="main.html"><img src="img/HotelEasy로고.png" alt=""></a></div>
+      <ul class="search">
+        <input type="text"><button type="button"><img src="img/돋보기.png"></button>
+      </ul>
+      <ul class="mypage">
+        <li type="block"><img src="img/회원.png"><a href="#">로그인/회원가입</a></li>
+      </ul>
+    </header>
 
 
 
 
-  <!-- Body -->
-  <form onsubmit="" class="form" id="form">
-    <div class="Body">
-      <!-- House Info -->
-      <div class="HouseInfo">
-        <div class="HouseInfo_title">
-          <div>숙소정보 | 석화숲 주변 별빛천막</div>
+    <!-- Body -->
+    <form onsubmit="" class="form" id="form">
+      <div class="contents">
+        <!-- House Info -->
+        <div class="HouseInfo">
+          <div class="HouseInfo_title">
+            <div>숙소정보 | 석화숲 주변 별빛천막</div>
+          </div>
+
         </div>
+        <!-- TinyBody -->
+        <div class="tinybody">
+          <div class="HouseInfo_title1">
+            <pre> 석화숲주변 별빛천막                     ★4.85</pre>
+          </div>
 
-      </div>
-      <!-- TinyBody -->
-      <div class="tinybody">
-        <div class="HouseInfo_title1">i
-          <pre> 석화숲주변 별빛천막           ★4.85</pre>
-        </div>
+          <div class="viewer"><img src="./image/스타일/KakaoTalk_20221121_163144365.png" alt=""></div>
 
-        <div class="viewer"><img src="./image/스타일/KakaoTalk_20221121_163144365.png" alt=""></div>
+          <div class="image--select">
+            <a id="change--image1" href="javascript:void(0)"><img src="./image/스타일/KakaoTalk_20221121_163144365.png"
+                alt=""></a>
+            <a id="change--image2" href="javascript:void(0)"><img
+                src="./image/스타일/c1743965-47b4-4217-a935-6991b96c09ed.webp" alt=""></a>
+            <a id="change--image3" href="javascript:void(0)"><img
+                src="./image/스타일/1e5c8b76-f155-40fc-ac97-f86821b9fda4.webp" alt=""></a>
+            <a id="change--image4" href="javascript:void(0)"><img src="./image/스타일/캡처.PNG" alt=""></a>
+            <div class="viewer--btn">
+              <div><i class="bi bi-arrow-left-square leftbtn"></i></div>
+              <div><i class="bi bi-arrow-right-square rightbtn"></i></div>
+            </div>
+          </div>
+          <!-- Payment -->
+          <div class="Payment">
+            <div>체크인 : <input type="date" name="check--in" id="check--in"></div>
+            <hr>
+            <div>체크아웃 : <input type="date" name="check--out" id="check--out"></div>
+            <hr>
+            <div class="number">
+              인원 :
+              <span class="number--frame">
+                성인 : <input type="number" min="1" max="150" step="1" value="0">
+                아동 : <input type="number" min="1" max="150" step="1" value="0">
+                <span>★4.85</span>
+              </span>
+            </div>
+            <hr>
+            <div class="total">총 금액 : <i class="bi bi-wallet"></i> 89000원 <span id="daycal"></span> / 박 </div>
+            <hr>
+            <div class="plus--description"><i class="bi bi-wallet-fill"></i>선착순 8000원 할인! (삼성카드로 결제시)</div>
+            <input type="submit" value="결제하기"><br>
+            <div class="link">
+              <a href="" class="member--info">회원정보</a>
+              &nbsp;&nbsp;&nbsp;
+              <a href="" class="logout">로그아웃</a>
+            </div>
+          </div>
 
-        <div class="image--select">
-          <a id="change--image1" href="javascript:void(0)"><img src="./image/스타일/KakaoTalk_20221121_163144365.png"
-              alt=""></a>
-          <a id="change--image2" href="javascript:void(0)"><img
-              src="./image/스타일/c1743965-47b4-4217-a935-6991b96c09ed.webp" alt=""></a>
-          <a id="change--image3" href="javascript:void(0)"><img
-              src="./image/스타일/1e5c8b76-f155-40fc-ac97-f86821b9fda4.webp" alt=""></a>
-          <a id="change--image4" href="javascript:void(0)"><img src="./image/스타일/캡처.PNG" alt=""></a>
-          <div class="viewer--btn">
-            <div><i class="bi bi-arrow-left-square leftbtn"></i></div>
-            <div><i class="bi bi-arrow-right-square rightbtn"></i></div>
+
+          <!-- Review & Info -->
+          <div class="frame--reviewinfo">
+            <div class="vertical--line1"></div>
+            <div class="roominfo--title">
+              <b id="title1">숙박장소</b>
+              <b id="title2">숙소 편의시설</b>
+            </div>
+            <div class="roominfo">
+              <div class="roominfo--content">
+                &nbsp;&nbsp;<i class="fa-solid fa-bed"></i> <br>
+                &nbsp;&nbsp;<b>침실공간</b>
+                &nbsp;&nbsp;<span>최대인원 : 4명가능</span> <br><br>
+                &nbsp;&nbsp;<b>요와 이불 &nbsp;&nbsp;: 1개</b> <br>
+                &nbsp;&nbsp;<b>해먹 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 1개</b>
+              </div>
+
+              <div class="roominfo--convience">
+                &nbsp;&nbsp;<i class="fa-solid fa-car"></i>
+                &nbsp;&nbsp;<b>건물 내 무료주차</b> <br>
+                &nbsp;&nbsp;<i class="fa-sharp fa-solid fa-calendar"></i>
+                &nbsp;&nbsp;<b>장기 숙박 가능</b> <br>
+                &nbsp;&nbsp;<i class="fa-solid fa-cat"></i>
+                &nbsp;&nbsp;<b>반려동물 입실가능</b>
+              </div>
+            </div>
+            <br>
+            <hr>
+
+            <div class="roominfo--reviewtitle">
+              <b>숙소리뷰</b>
+            </div>
+
+            <div class="roominfo--review">
+              <div class="vertical--line2"></div>
+              <div class="roominfo--review1">
+                <div class="bar-container"> 청결도
+                  <progress class="progressTag" value="97" max="100" /></progress>
+                  ★4.85
+                </div>
+
+                <div class="bar-container"> 정확성
+                  <progress class="progressTag" value="100" max="100" /></progress>
+                  ★5.0
+                </div>
+              </div>
+
+              <br>
+              <div class="roominfo--review2">
+                <div class="bar-container"> 의사소통
+                  <progress class="progressTag" value="98" max="100" /></progress>
+                  ★4.9
+                </div>
+                <div class="bar-container"> 위치
+                  <progress class="progressTag" value="94" max="100" /></progress>
+                  ★4.7
+                </div>
+              </div>
+              <br>
+              <div class="roominfo--review3">
+                <div class="bar-container"> 체크인
+                  <progress class="progressTag" value="100" max="100" /></progress>
+                  ★5.0
+                </div>
+                <div class="bar-container"> 가성비
+                  <progress class="progressTag" value="98" max="100" /></progress>
+                  ★4.9
+                </div>
+              </div>
+            </div>
+            <br>
+            <hr>
+
+
+            <div class="text--review">
+              <div class="icon--date">
+                <i class="bi bi-person-circle"></i>
+                <div class="date--star">
+                  <b>22.11.03 ~ 22.11.04 (1박)</b> <span>★4.7</span>
+                </div>
+              </div>
+
+              <div class="name--content">
+                <div class="name">김민식</div>
+
+                <div class="content">주변에 소음이 없어서 좋았습니다. 다시 이용하고 싶어요!
+                  <div class="heart--number"><i class="bi bi-heart-fill"></i></i>6</div>
+                </div>
+              </div>
+
+
+              <div class="icon--date">
+                <i class="bi bi-person-circle"></i>
+                <div class="date--star">
+                  <b>22.10.26 ~ 22.10.28 (2박)</b> <span>★4.9</span>
+                </div>
+              </div>
+
+              <div class="name--content">
+                <div class="name">이동하</div>
+
+                <div class="content">주차가 편리하고 사장님이 친절해요! 추천합니다 :)
+                  <div class="heart--number"><i class="bi bi-heart-fill"></i></i>999+</div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
           </div>
         </div>
-        <!-- Payment -->
-        <div class="Payment">
-          <div>체크인 : <input type="date" name="check--in" id="check--in"></div>
-          <hr>
-          <div>체크아웃 : <input type="date" name="check--out" id="check--out"></div>
-          <hr>
-          <div class="number">
-            인원 :
-            <span class="number--frame">
-              성인 : <input type="number" min="1" max="150" step="1" value="0">
-              아동 : <input type="number" min="1" max="150" step="1" value="0">
-              <span>★4.85</span>
-            </span>
-          </div>
-          <hr>
-          <div>총 금액 : <i class="bi bi-wallet"></i> 89000원 <span id="daycal"></span> / 박 </div>
-          <hr>
-          <div><i class="bi bi-wallet-fill"></i>선착순 8000원 할인! (삼성카드로 결제시)</div>
-          <input type="submit" value="결제하기">
+
+
+        <!-- 최상단버튼 -->
+        <div class="btn-up">
+          <a href="#" class="btn-up-position">
+            <i class="bi bi-arrow-up-circle" id="btn_scroll_top"></i>
+          </a>
         </div>
-
-
-        <!-- Review -->
-        <div class="Review"></div>
       </div>
 
 
-    </div>
-    <!-- Footer -->
-
-    <footer>
-      <div class="foot1">
-        <h1>HOTEL EASY 지원 </h1><br>
-        <div class="footchi"><a href="">ⓞ이용약관</a><a href="">ⓞ환불정책</a><a href="">ⓞ도움말 & FAQ</a></div><br>
-        <!-- <div class="footchi"></div> 
-      <div class="footchi"></div> -->
-      </div>
-      <div class="foot2">
-        <a href="">로그인/회원가입</a><br>
-        <h1>ⓞ2022 HOTELEASY</h1>
-      </div>
-  </form>
-
-  </footer>
-
-
+      <!-- Footer -->
+      <footer>
+        <div class="foot1">
+          <h1>HOTEL EASY 지원 </h1><br>
+          <div class="footchi"><a href="">ⓞ이용약관</a><a href="">ⓞ환불정책</a><a href="">ⓞ도움말 & FAQ</a></div><br>
+        </div>
+        <div class="foot2">
+          <a href="">로그인/회원가입</a><br>
+          <h1>ⓞ2022 HOTELEASY</h1>
+        </div>
+    </form>
+    </footer>
 
 </body>
 

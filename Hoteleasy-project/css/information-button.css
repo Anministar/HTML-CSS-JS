@@ -1,0 +1,141 @@
+/* @import url('https://fonts.googleapis.com/css?family=Amatic+SC'); */
+
+button,
+.c>a,
+.mypage>li>a,
+.d>a>img
+{
+    -webkit-transition: all 300ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -moz-transition: all 300ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -ms-transition: all 300ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -o-transition: all 300ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    transition: all 300ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    /* max-width: 180px; */
+
+ 
+}
+button,.mypage>li>a{
+    color: rgb(49, 49, 49);
+    box-shadow: rgba(255, 167, 167, 0.575) 0px 0px 2px 2px inset;
+    
+ }
+
+
+ .mypage>li>a:hover,button:hover{
+    color: lavenderblush;
+    box-shadow: rgba(255, 167, 167, 0.575) 0px 0px 30px 30px inset;
+ }
+/*  */
+ .c>a{
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(255, 201, 205, 0.432) 0px 0px 2px 2px inset;
+    
+ }
+
+
+ .c>a:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(255, 73, 73, 0.363) 0px 0px 10px 10px inset;
+ }
+
+ /*  */
+
+ .d>a>img{
+    color: rgb(0, 0, 0);
+    box-shadow: lavenderblush  0px 1px 2px 2px  inset;
+   
+   }
+
+ .d>a>img:hover {
+    color: rgb(0, 0, 0);
+    box-shadow: rgb(242, 248, 255) 5px 0px 8px 10px inset;
+    border-bottom-right-radius: 1cm;
+    border-color: rgb(242, 248, 255);
+
+ }
+
+.d>a:hover .t1{
+   color: black;
+}
+
+
+
+
+
+ .footchi>a,
+ .foot2>a{
+    color: black;
+ }
+ 
+ .footchi>a:hover,
+ .foot2>a:hover{
+    color: white;
+ }
+
+ .btn1 {
+	position: absolute;
+  top: 221px;
+  left: 725px;
+  margin-left: 100px;
+  
+}
+.btn2 {
+	position: absolute;
+  top: 434px;
+  right: 250px;
+	text-align: center;
+  margin-left: 100px;
+}
+.btn3 {
+	position: absolute;
+  top: 645px;
+  right: 248px;
+	text-align: center;
+  margin-left: 200px;
+}
+.btn4 {
+	position: absolute;
+  top: 326px;
+  right: 250px;
+	text-align: center;
+  margin-left: 200px;
+}
+.btn5 {
+	position: absolute;
+  top: 540px;
+  right: 250px;
+	text-align: center;
+  margin-left: 200px;
+}
+.Save{
+  position: absolute;
+  padding-left: 430px;
+  margin-top: 50px;
+}
+
+.button {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	display: block;
+	margin: 20px auto;
+	max-width: 180px;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 20px 18px;
+  font-size: 25px;
+ 
+
+}
+
+.button {
+	color: rgba(30, 22, 54, 0.6);
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+.button:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}

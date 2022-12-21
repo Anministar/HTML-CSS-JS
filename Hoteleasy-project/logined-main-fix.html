@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HotelEasy</title>
+  <!-- reset.css cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <!-- swiper.cnd -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"
+    integrity="sha512-wdUM0BxMyMC/Yem1RWDiIiXA6ssXMoxypihVEwxDc+ftznGeRu4s9Fmxl8PthpxOh5CQ0eqjqw1Q8ScgNA1moQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- BS5 icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- favicon -->
+  <link rel="icon" href="img/favicon2.png">
+  <!-- common.css -->
+  <link rel="stylesheet" href="css/common.css">
+  <!-- header.css -->
+  <link rel="stylesheet" href="css/logined-header.css">
+  <!-- nav.css -->
+  <link rel="stylesheet" href="css/nav.css">
+  <!-- contents.css -->
+  <link rel="stylesheet" href="css/contents.css">
+  <!-- footer.css -->
+  <link rel="stylesheet" href="css/footer.css">
+  <!-- button.css -->
+  <link rel="stylesheet" href="css/button.css">
+  <!-- contents.js -->
+  <script defer src="js/contents.js"></script>
+  <!-- topbutton.js -->
+  <script defer src="js/topbutton.js"></script>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <header>
+      <div id="logo"><a href="logined-main-fix.html"><img src="img/HotelEasy로고.png" alt=""></a></div>
+      <ul class="search">
+        <input type="text"><button type="button"><img src="img/돋보기.png"></button>
+      </ul>
+      <ul class="mypage">
+        <li type="block"><img src="img/회원.png"><a href="#">마이페이지</a></li>
+        <ul class="mpsub">
+          <li><a href="" > -회원정보수정</a></li>
+          <li><a href="" > -예약조회/취소</a></li>
+          <li><a href="" > -로그아웃</a></li>
+      </ul>
+      </ul>
+    </header>
+
+
+
+
+
+
+
+    <nav>
+      <ul class="menu2">
+        <li>
+          <div class="c"><a href=""><img src="img/일정선택.png" alt=""> 일정선택</a></div>
+          <ul class="submenu">
+            <li>입실 <input type='date' name='d1'></li>
+            <li>퇴실 <input type='date' name='d2'></li>
+            <li class="people">
+              성인 <input type="number" style="width: 30px;">
+              아동 <input type="number" style="width: 30px;"></li>
+            <a href=""><button>선택하기</button></a>
+          </ul>
+        </li>
+        <li>
+          <div class="c"><a href=""><img src="img/위치.png">위치</a></div>
+          <ul class="submenu">
+            <li>위치 검색/ 현재위치 검색 <input type="text"><a href=""><button><img src="img/돋보기.png" alt=""></button></a></li>
+          </ul>
+
+        </li>
+        <li>
+          <div class="c"><a href=""><img src="img/필터.png" alt=""> 필터</a></div>
+          <ul class="submenu">
+            <li>필터(1박기준)
+              <div class="filter">
+                <hr>
+                <h1>숙소유형</h1><br>
+                <input type="checkbox">집전체
+                <input type="checkbox">개인실
+                <input type="checkbox">다인실<br>
+                <h1>침실과 침대</h1>
+                <input class="numin" type="number"><br><a href=""><button>검색하기</button></a>
+                <hr>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="c"><a href=""><img src="img/최근 본 숙소.png" alt=""> 최근 본 숙소</a> </div>
+        </li>
+      </ul>
+    </nav>
+
+
+
+
+
+
+    <nav2>
+      <ul class="menu3">
+        <div class="d"><a href=""><img src="img/캠핑.png" alt="">
+            <div class="t1">캠핑/글램핑</div>
+          </a></div>
+        <div class="d"><a href=""><img src="img/풀빌라.png" alt="">
+            <div class="t1">풀빌라</div>
+          </a></div>
+        <div class="d"><a href=""><img src="img/호텔.png" alt="">
+            <div class="t1">호텔</div>
+          </a></div>
+        <div class="d"><a href=""><img src="img/모텔.png" alt="">
+            <div class="t1">모텔</div>
+          </a></div>
+        <div class="d"><a href=""><img src="img/한옥.png" alt="">
+            <div class="t1">한옥</div>
+          </a></div>
+      </ul>
+    </nav2>
+
+
+
+
+
+
+    <div class="contents">
+
+      <div class="main-banner">
+        <h1><img src="img/추천숙소.png" alt=""> 평점 높은 순 추천──────────────────────────────────────────────────────────</h1>
+      </div>
+      <div class="main-contents">
+        <section>
+          <div class="item"><a href=""><img src="img/석화숲.png" alt=""><br>
+              <div class="text">석화숲 주변 별빛천막 ★4.85 </div>
+            </a></div>
+          <div class="item"><a href=""><img src="img/하루감성한옥.png" alt=""><br>
+              <div class="text">하루감성한옥 독체사용 ★5.0</div>
+            </a></div>
+          <div class="item"><a href=""><img src="img/노보텔.png" alt=""><br>
+              <div class="text">노보텔 엠버서더 용산 ★4.9</div>
+            </a></div>
+          <div class="item"><a href=""><img src="img/히든헤이든.png" alt=""><br>
+              <div class="text"> 히든 헤이븐 풀빌라 ★4.95</div>
+            </a></div>
+        </section>
+      </div>
+
+      <div class="main-banner">
+        <h1><img src="img/추천숙소.png" alt=""> 가까운 순 추천───────────────────────────────────────────────────────────</h1>
+      </div>
+      <div class="main-contents">
+        <section>
+          <div class="item"><a href=""><img src="img/토요코인.png" alt=""><br>
+              <div class="text">동성로 토요코인 호텔 ★4.0 </div>
+            </a></div>
+          <div class="item"><a href=""><img src="img/메리어트.jpg" alt=""><br>
+              <div class="text"> 대구 메리어트 호텔 ★4.4 </div>
+            </a></div>
+          <div class="item"><a href=""><img src="img/파계오토캠핑장.jpg" alt=""><br>
+              <div class="text"> 파계 오토캠핑장 ★4.2 </div>
+            </a></div>
+          <div class="item"><a href=""><img src="img/서문한옥게스트하우스.jpg" alt=""><br>
+              <div class="text"> 서문한옥게스트하우스 ★4.1 </div>
+            </a></div>
+        </section>
+      </div>
+
+      <section class="event">
+        <div class="second-banner">
+          <div class="inner">
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><a href=""><img src="img/이벤트1.JPG" alt=""></a></div>
+                <div class="swiper-slide"><a href=""><img src="img/이벤트2.JPG" alt=""></a></div>
+                <div class="swiper-slide"><a href=""><img src="img/이벤트3.JPG" alt=""></a></div>
+                <div class="swiper-slide"><a href=""><img src="img/이벤트5.JPG" alt=""></a></div>
+              </div>
+
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="onevent">
+        <div>
+          <a href=""><img src="img/이벤트4.JPG" alt=""></a>
+        </div>
+      </section>
+      <!-- 최상단버튼 -->
+      <div class="btn-up">
+        <a href="#" class="btn-up-position">
+          <i class="bi bi-arrow-up-circle" id="btn_scroll_top"></i>
+        </a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="foot1">
+        <h1>HOTEL EASY 지원 </h1><br>
+        <div class="footchi"><a href="Terms of service.html">ⓞ이용약관</a><a href="refund policy.html">ⓞ환불정책</a><a href="#">ⓞ도움말 & FAQ</a></div><br>
+        <!-- <div class="footchi"></div> 
+                    <div class="footchi"></div> -->
+      </div>
+      <div class="foot2">
+        <a href="Login-fixed.html">로그인/회원가입</a><br>
+        <h1>ⓞ2022 HOTELEASY</h1>
+      </div>
+    </footer>
+
+
+
+  </div>
+
+
+</body>
+
+</html>

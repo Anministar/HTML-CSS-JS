@@ -1,0 +1,143 @@
+/* body{
+  background-color: #ffffff;
+  margin :auto;
+
+} */
+
+.back{
+  background-color: rgb(190, 183, 183);
+  width: 1400px;
+  height: 1000px;
+  margin: 40px auto;
+  /* padding: 50px; */
+  box-sizing: border-box;
+  position:relative;
+
+  padding:50px;
+} 
+
+.contents div {
+  padding-top: 2px;
+  text-align:left;
+}
+
+
+/* .wrapper{
+  width : 85%;
+  background-color: lavenderblush;
+  margin:0 auto;
+  height :100vh;
+  margin-top:-10px;
+} */
+.contents .inner {
+  width: 1200px;
+  margin: 40px auto;
+  /* padding: 50px; */
+  box-sizing: border-box;
+  position:relative;
+
+  padding:50px;
+}
+.contents h1{
+  margin: 0 auto;
+  padding-bottom: 12px;
+  border-bottom: 1px solid black;
+  font-size:60px;
+  letter-spacing: -2px;
+  
+  
+}
+.contents input[type="text"],
+.contents input[type="id"],
+.contents input[type="name1"],
+.contents input[type="name"],
+.contents input[type="password"],
+.contents input[type="phone"],
+.contents input[type="phoneCheck"]{
+  
+  height : 50px;
+  width : 600px;
+  text-align: left;
+  
+}
+
+.C{
+margin: 0px 0px 0px 100px ;
+}
+form>.title>h2{
+  margin-left: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+  
+}
+form>.title>h1{
+text-align: center;
+position: relative;
+left: 50px;
+bottom: 30px;
+}
+hr{
+text-align: center;
+position: relative;
+left: 50px;
+bottom: -40px;
+}
+
+input[name1],
+input[name],
+input[id],
+input[password],
+input[phoneCheck]{
+  font-size:25px;
+  
+  
+}
+input{
+  font-size:15px; padding:9px 25px ;
+  
+}
+input[type="button" i] {
+  font-size:13px;
+  background-color: rgb(114, 110, 110);
+  color: aliceblue;
+  border: 0px;
+
+}
+
+.cat{
+  width : 130px;
+  height : 120px;
+  position:absolute;
+  top : -110px;
+  left:-570px;
+  
+}
+.cat>img{
+ width : 130%;
+ height : 110%;
+ position: absolute;
+  left: 500px;
+  top: 400px;
+
+}
+ 
+
+
+#main-menu{
+  position: absolute;
+  font-size:  22px;
+  background-size: 5px;
+  margin-left: 850px;
+  margin-top: 300px;
+  list-style: disc;
+  width: 120px;
+  height: 125px;
+  text-align: center;
+  background-color: rgb(243, 232, 213);
+  background-position: 7px;
+  /* list-style-position: outside; */
+}
+#main-menu>li{
+  margin: 15px 0px;
+}

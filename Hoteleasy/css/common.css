@@ -1,0 +1,21 @@
+html{
+  font-size: 1.1rem;
+  font-weight: normal;
+  font-family: 'Gowun Dodum', sans-serif;
+  -webkit-text-stroke: 0.2px;
+}
+
+body{
+  box-sizing: border-box;
+}
+header,nav,footer{
+  padding: 0px 150px;
+}
+header,nav,footer,.main-contents{
+  padding: 0px 150px;
+}
+
+.inner {
+  margin : 0px;
+  position : relative;
+}

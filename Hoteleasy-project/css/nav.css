@@ -1,0 +1,114 @@
+nav{
+  margin:auto;
+  width: 1200px;
+  height: 60px;
+  border: 30px solid lavenderblush;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: white;
+
+}
+nav > *{
+  height: 50px;
+}
+.c{
+ margin-left: 75px;
+ margin-right: 65px;
+ width: 150px;
+}
+.menu2>li>div>a{
+  /* display:inline-blocks; */
+  border:1px solid lavenderblush;
+  border-radius: 10px;
+  background-color: lavenderblush;
+  text-decoration: none;
+  vertical-align: -15px;
+  
+}
+.menu2>li:hover .submenu{
+  display: grid;
+  
+  }
+.menu2,.submenu{
+
+  display: flex;
+  position: relative;
+  border: 4px solid rgb(255, 255, 255);
+  }
+.menu2>li>div>a>img{
+  height: 25px;
+  vertical-align: -5px;
+  
+}
+.submenu>li>a>button{
+  width: 150px;
+}
+.submenu>li>a>button>img{
+  width: 18px;
+  height: 18px;
+  justify-items: auto;
+} 
+
+.submenu{
+  
+  display: none;
+  width: 250px;
+  height: auto;
+  padding:15px;
+  border-radius: 15px;
+  background-color: lavenderblush;
+  text-align: center;
+}
+.submenu>li>input
+{
+  width: 150px;
+  height: 20px;
+}
+
+
+
+.filter{
+  background-color: white;
+  text-align: center;
+}
+.filter>h1{
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.filter>.numin{
+  width: 30px;
+  height: 20px;
+}
+
+
+
+.menu3{
+display: flex;
+border: 30px solid lavenderblush;
+justify-content: space-evenly;
+width:1500px;
+margin:auto;
+}
+.menu3>.d{
+  width: 150px;
+  text-align: center ;
+  justify-content: center;
+}
+.menu3>.d>a{
+  text-decoration: none;
+}
+.menu3>.d>a>img{
+  width: 70px;
+  display: flex;
+  background-color: lavenderblush;
+  border: 10px solid lavenderblush;
+  border-radius: 5px;
+  margin: 20px;
+}
+.t1{
+  color: white;
+  margin: 0px 15px 15px 0px;
+ 
+}
